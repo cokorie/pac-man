@@ -8,6 +8,8 @@ let createRect = (x, y, width, height, color) => {
     canvasContext.fillRect(x, y, width, height);
 };
 
+let fps = 30;
+
 let map = [
     [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],
     [1,2,2,2,2, 2,2,2,2,2, 1,2,2,2,2, 2,2,2,2,2, 1],
@@ -46,3 +48,5 @@ let update = () => {
 let draw = () => {
 
 };
+
+let gameInterval = setInterval(gameLoop, 1000/fps);

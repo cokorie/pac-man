@@ -4,5 +4,5 @@ const pacmanFrames = document.getElementById("animation");
 const ghostFrames = document.getElementById("ghosts");
 
 let createRect = () => {
-
+    canvasContext.fillStyle = color;
 };

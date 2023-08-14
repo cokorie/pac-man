@@ -36,8 +36,13 @@ let map = [
 
 let gameLoop = () => {
     update();
+    draw();
 };
 
 let update = () => {
-    
+
+};
+
+let draw = () => {
+
 };

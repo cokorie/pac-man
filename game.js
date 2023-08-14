@@ -46,7 +46,7 @@ let update = () => {
 };
 
 let draw = () => {
-
+    drawWalls();
 };
 
 let gameInterval = setInterval(gameLoop, 1000/fps);

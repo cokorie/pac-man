@@ -9,6 +9,7 @@ let createRect = (x, y, width, height, color) => {
 };
 
 let fps = 30;
+let oneBlockSize = 20;
 
 let map = [
     [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],

@@ -9,5 +9,5 @@ let createRect = (x, y, width, height, color) => {
 };
 
 let map = [
-    
+    [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],
 ];

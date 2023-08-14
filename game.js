@@ -50,3 +50,13 @@ let draw = () => {
 };
 
 let gameInterval = setInterval(gameLoop, 1000/fps);
+
+let drawWalls = () => {
+    for(let i = 0; i < map.length; i++) {
+        for(let j = 0; j < map.length; j++) {
+            if(map[i][j] == 1) {
+                createRect(j * 20, i * 20, 20, 20, "#342DCA")
+            }
+        }
+    }
+};

@@ -16,6 +16,7 @@ let wallOffset = (oneBlockSize - wallSpaceWidth) / 2;
 let wallInnerColor = "black";
 
 const DIRECTION_RIGHT = 4;
+const DIRECTION_UP = 3;
 
 let map = [
     [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],

@@ -10,5 +10,9 @@ class Pacman {
     moveProcess() {
 
     }
+
+    eat() {
+
+    }
     
 }

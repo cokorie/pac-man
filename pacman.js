@@ -22,5 +22,9 @@ class Pacman {
     moveForwards() {
 
     }
+
+    checkCollision() {
+
+    }
     
 }

@@ -38,5 +38,8 @@ class Pacman {
     changeAnimation() {
 
     }
-    
+
+    draw() {
+        
+    }
 }

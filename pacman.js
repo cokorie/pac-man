@@ -6,4 +6,9 @@ class Pacman {
         this.height = height;
         this.speed = speed;
     }
+
+    moveProcess() {
+
+    }
+    
 }

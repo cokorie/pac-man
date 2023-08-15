@@ -25,7 +25,9 @@ class Pacman {
     }
 
     moveForwards() {
-
+        switch(this.direction) {
+            
+        }
     }
 
     checkCollision() {

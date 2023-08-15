@@ -26,5 +26,9 @@ class Pacman {
     checkCollision() {
 
     }
+
+    checkGhostCollision() {
+
+    }
     
 }

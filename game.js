@@ -18,6 +18,7 @@ let wallInnerColor = "black";
 const DIRECTION_RIGHT = 4;
 const DIRECTION_UP = 3;
 const DIRECTION_LEFT = 2;
+const DIRECTION_DOWN = 1;
 
 let map = [
     [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],

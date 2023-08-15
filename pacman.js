@@ -29,6 +29,9 @@ class Pacman {
             case DIRECTION_RIGHT:
                 this.x += this.speed;
                 break;
+            case DIRECTION_UP:
+                this.y -= this.speed;
+                break;
         }
     }
 

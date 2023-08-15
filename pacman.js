@@ -14,5 +14,9 @@ class Pacman {
     eat() {
 
     }
+
+    moveBackwards() {
+
+    }
     
 }

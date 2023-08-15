@@ -30,5 +30,9 @@ class Pacman {
     checkGhostCollision() {
 
     }
+
+    changeDirectionIfPossible() {
+
+    }
     
 }

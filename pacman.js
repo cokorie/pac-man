@@ -22,7 +22,9 @@ class Pacman {
 
     moveBackwards() {
         switch(this.direction) {
-            
+            case DIRECTION_RIGHT:
+                this.x -= this.speed;
+                break;
         }
     }
 

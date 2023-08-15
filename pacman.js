@@ -21,7 +21,9 @@ class Pacman {
     }
 
     moveBackwards() {
-
+        switch(this.direction) {
+            
+        }
     }
 
     moveForwards() {

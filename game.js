@@ -68,6 +68,9 @@ let drawWalls = () => {
                 if(j < map[0].length - 1 && map[i][j + 1] == 1) {
                     createRect(j * oneBlockSize + wallOffset, i * oneBlockSize + wallOffset, wallSpaceWidth + wallOffset, wallSpaceWidth, wallInnerColor);
                 };
+                if(i > 0 - 1 && map[i - 1][j] == 1) {
+                    createRect(j * oneBlockSize + wallOffset, i * oneBlockSize, wallSpaceWidth, wallSpaceWidth + wallOffset, wallInnerColor);
+                };
             }
         }
     }

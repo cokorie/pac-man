@@ -4,5 +4,6 @@ class Pacman {
         this.y = y;
         this.width = width;
         this.height = height;
+        this.speed = speed;
     }
 }

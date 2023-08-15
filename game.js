@@ -59,6 +59,9 @@ let drawWalls = () => {
         for(let j = 0; j < map.length; j++) {
             if(map[i][j] == 1) {
                 createRect(j * oneBlockSize, i * oneBlockSize, oneBlockSize, oneBlockSize, wallColor);
+                if(j > 0 && map[i][j - 1] == 1) {
+
+                };
             }
         }
     }

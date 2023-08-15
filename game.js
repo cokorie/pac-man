@@ -11,7 +11,7 @@ let createRect = (x, y, width, height, color) => {
 let fps = 30;
 let oneBlockSize = 20;
 let wallColor = "#342DCA";
-let wallSpaceWidth = oneBlockSize / 1.1;
+let wallSpaceWidth = oneBlockSize / 1.3;
 let wallOffset = (oneBlockSize - wallSpaceWidth) / 2;
 let wallInnerColor = "black";
 

@@ -34,5 +34,9 @@ class Pacman {
     changeDirectionIfPossible() {
 
     }
+
+    changeAnimation() {
+
+    }
     
 }

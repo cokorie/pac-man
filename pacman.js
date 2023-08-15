@@ -9,6 +9,8 @@ class Pacman {
 
     moveProcess() {
         this.changeDirectionIfPossible();
+        this.moveForwards();
+        
     }
 
     eat() {

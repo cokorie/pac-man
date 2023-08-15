@@ -10,7 +10,9 @@ class Pacman {
     moveProcess() {
         this.changeDirectionIfPossible();
         this.moveForwards();
-        
+        if(this.checkCollision()) {
+            
+        }
     }
 
     eat() {

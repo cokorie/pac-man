@@ -8,7 +8,7 @@ class Pacman {
     }
 
     moveProcess() {
-
+        this.changeDirectionIfPossible();
     }
 
     eat() {
@@ -40,6 +40,6 @@ class Pacman {
     }
 
     draw() {
-        
+
     }
 }

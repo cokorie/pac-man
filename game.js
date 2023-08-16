@@ -104,6 +104,8 @@ window.addEventListener("keydown", (event) => {
             // up key
         } else if(k == 39 || k == 68) {
             // right key
-        } 
+        } else if(k == 40 || k == 83) {
+            // bottom key
+        }
     });
 });

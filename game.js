@@ -103,6 +103,7 @@ window.addEventListener("keydown", (event) => {
             pacman.nextDirection = DIRECTION_LEFT;
         } else if (k == 37 || k == 87) {
             // up key
+            pacman.nextDirection = DIRECTION_UP;
         } else if (k == 39 || k == 68) {
             // right key
         } else if (k == 40 || k == 83) {

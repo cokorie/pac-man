@@ -87,6 +87,7 @@ class Pacman {
 
     draw() {
         canvasContext.save();
+        canvasContext.translate(this.x + oneBlockSize / 2, this.y + oneBlockSize / 2);
     }
 
     getMapX() {

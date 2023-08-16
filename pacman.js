@@ -10,8 +10,8 @@ class Pacman {
         this.frameCount = 7;
 
         setInterval(() => {
-            
-        });
+            this.changeAnimation();
+        }, 100);
     }
 
     moveProcess() {

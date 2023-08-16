@@ -86,7 +86,7 @@ class Pacman {
     }
 
     draw() {
-
+        canvasContext.save();
     }
 
     getMapX() {

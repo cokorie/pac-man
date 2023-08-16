@@ -100,6 +100,8 @@ window.addEventListener("keydown", (event) => {
     setTimeout(() => {
         if(k == 37 || k == 65) {
             // left key
+        } else if(k == 37 || k == 65) {
+            // up key
         }
     });
 });

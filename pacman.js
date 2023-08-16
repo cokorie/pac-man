@@ -76,7 +76,7 @@ class Pacman {
     }
 
     getMapX() {
-
+        return parseInt(this.x / oneBlockSize);
     }
 
     getMapY() {

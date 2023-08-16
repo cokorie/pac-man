@@ -80,7 +80,7 @@ class Pacman {
     }
 
     getMapY() {
-
+        return parseInt(this.y / oneBlockSize);
     }
 
     getMapXRightSide() {

@@ -93,3 +93,7 @@ let createNewPacman = () => {
 
 createNewPacman();
 gameLoop();
+
+window.addEventListener("keydown", (event) => {
+
+});

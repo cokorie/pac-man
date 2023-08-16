@@ -109,6 +109,7 @@ window.addEventListener("keydown", (event) => {
             pacman.nextDirection = DIRECTION_RIGHT;
         } else if (k == 40 || k == 83) {
             // bottom key
+            pacman.nextDirection = DIRECTION_BOTTOM;
         }
     }, 1);
 });

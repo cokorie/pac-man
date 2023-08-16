@@ -82,5 +82,10 @@ class Pacman {
     getMapY() {
 
     }
+
+    getMapXRightSide() {
+
+    }
+
     
 }

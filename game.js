@@ -95,5 +95,6 @@ createNewPacman();
 gameLoop();
 
 window.addEventListener("keydown", (event) => {
-
+    let k = event.keyCode;
+    
 });

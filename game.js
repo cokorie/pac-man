@@ -92,3 +92,4 @@ let createNewPacman = () => {
 };
 
 createNewPacman();
+gameLoop();

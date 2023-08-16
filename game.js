@@ -97,4 +97,7 @@ gameLoop();
 window.addEventListener("keydown", (event) => {
     let k = event.keyCode;
     
+    setTimeout(() => {
+        
+    });
 });

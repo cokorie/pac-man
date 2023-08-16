@@ -7,6 +7,7 @@ class Pacman {
         this.speed = speed;
         this.direction = DIRECTION_RIGHT;
         this.currentFrame = 1;
+        this.frameCount = 7;
     }
 
     moveProcess() {

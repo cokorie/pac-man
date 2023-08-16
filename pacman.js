@@ -93,7 +93,7 @@ class Pacman {
         
         canvasContext.translate(-this.x - oneBlockSize / 2, -this.y - oneBlockSize / 2);
 
-        canvasContext.drawImage();
+        canvasContext.drawImage(pacmanFrames, (this.currentFrame - 1) / oneBlockSize, 0, oneBlockSize, oneBlockSize, this.x, this.y, this.width, this.height);
 
         canvasContext.restore();
     }

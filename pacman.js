@@ -79,5 +79,8 @@ class Pacman {
 
     }
 
+    getMapY() {
 
+    }
+    
 }

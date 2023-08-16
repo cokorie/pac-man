@@ -89,6 +89,8 @@ class Pacman {
         canvasContext.save();
         canvasContext.translate(this.x + oneBlockSize / 2, this.y + oneBlockSize / 2);
 
+        canvasContext.rotate();
+        
         canvasContext.restore();
     }
 

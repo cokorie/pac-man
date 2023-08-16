@@ -56,7 +56,15 @@ class Pacman {
     }
 
     checkCollision() {
-        let isCollided = false;
+        if(
+            map[this.getMapY()][this.getMapX()] == 1 || 
+            map[this.getMapYRightSide()][this.getMapX()] == 1 || 
+            map[this.getMapY()][this.getMapXRightSide()] == 1 || 
+            map[this.getMapYRightSide()][this.getMapXRightSide()] == 1
+        ) {
+            return true;
+        }
+        return false;
     }
 
     checkGhostCollision() {

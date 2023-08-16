@@ -83,3 +83,7 @@ let drawWalls = () => {
         }
     }
 };
+
+let createNewPacman = () => {
+
+};

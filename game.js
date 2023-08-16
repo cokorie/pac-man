@@ -98,13 +98,13 @@ window.addEventListener("keydown", (event) => {
     let k = event.keyCode;
     
     setTimeout(() => {
-        if(k == 37 || k == 65) {
+        if (k == 37 || k == 65) {
             // left key
-        } else if(k == 37 || k == 87) {
+        } else if (k == 37 || k == 87) {
             // up key
-        } else if(k == 39 || k == 68) {
+        } else if (k == 39 || k == 68) {
             // right key
-        } else if(k == 40 || k == 83) {
+        } else if (k == 40 || k == 83) {
             // bottom key
         }
     }, 1);

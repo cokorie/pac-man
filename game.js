@@ -85,5 +85,7 @@ let drawWalls = () => {
 };
 
 let createNewPacman = () => {
-
+    pacman = new Pacman(
+        
+    );
 };

@@ -90,3 +90,5 @@ let createNewPacman = () => {
         oneBlockSize, oneBlockSize, oneBlockSize, oneBlockSize, oneBlockSize / 5
     );
 };
+
+createNewPacman();

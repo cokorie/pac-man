@@ -107,5 +107,5 @@ window.addEventListener("keydown", (event) => {
         } else if(k == 40 || k == 83) {
             // bottom key
         }
-    });
+    }, 1);
 });

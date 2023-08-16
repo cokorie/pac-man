@@ -58,6 +58,7 @@ let update = () => {
 let draw = () => {
     createRect(0, 0, canvas.width, canvas.height, "black");
     drawWalls();
+    pacman.draw();
 };
 
 let gameInterval = setInterval(gameLoop, 1000/fps);

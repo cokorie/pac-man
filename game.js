@@ -52,7 +52,7 @@ let gameLoop = () => {
 };
 
 let update = () => {
-
+    pacman.moveProcess();
 };
 
 let draw = () => {

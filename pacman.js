@@ -91,6 +91,8 @@ class Pacman {
 
         canvasContext.rotate((this.direction * 90 * Math.PI) / 180);
         
+        canvasContext.translate(-this.x - oneBlockSize / 2, -this.y - oneBlockSize / 2);
+
         canvasContext.restore();
     }
 

@@ -65,6 +65,7 @@ let drawFoods = () => {
                     i * oneBlockSize + oneBlockSize / 3,
                     oneBlockSize / 3,
                     oneBlockSize / 3,
+                    foodColor
                 );
             }
         }

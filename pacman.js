@@ -86,7 +86,7 @@ class Pacman {
         this.direction = this.nextDirection;
         this.moveForwards();
         if(this.checkCollision()) {
-            
+            this.moveBackwards();
         }
     }
 

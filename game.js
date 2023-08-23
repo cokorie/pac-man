@@ -58,7 +58,7 @@ let update = () => {
 
 let drawFoods = () => {
     for (let i = 0; i < map.length; i++) {
-        for (let j = 0; j < map[0]; j++) {
+        for (let j = 0; j < map[0].length; j++) {
             if (map[i][j] == 2) {
                 createRect(
                     j * oneBlockSize + oneBlockSize / 3,

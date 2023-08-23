@@ -55,7 +55,7 @@ class Pacman {
                 break;
 
         }
-    }
+    };
 
     moveForwards() {
         switch(this.direction) {
@@ -72,7 +72,7 @@ class Pacman {
                 this.y += this.speed;
                 break;
         }
-    }
+    };
 
     checkCollision() {
         if(
@@ -84,7 +84,7 @@ class Pacman {
             return true;
         }
         return false;
-    }
+    };
 
     checkGhostCollision() {
 
@@ -103,11 +103,11 @@ class Pacman {
         } else {
             this.moveBackwards();
         }
-    }
+    };
 
     changeAnimation() {
         this.currentFrame = this.currentFrame == this.frameCount ? 1 : this.currentFrame +1;
-    }
+    };
 
     draw() {
         canvasContext.save();
@@ -120,22 +120,20 @@ class Pacman {
         canvasContext.drawImage(pacmanFrames, (this.currentFrame - 1) / oneBlockSize, 0, oneBlockSize, oneBlockSize, this.x, this.y, this.width, this.height);
 
         canvasContext.restore();
-    }
+    };
 
     getMapX() {
         return parseInt(this.x / oneBlockSize);
-    }
+    };
 
     getMapY() {
         return parseInt(this.y / oneBlockSize);
-    }
+    };
 
     getMapXRightSide() {
         return parseInt((this.x + 0.9999 * oneBlockSize) / oneBlockSize);
-    }
+    };
     
     getMapYRightSide() {
         return parseInt((this.y + 0.9999 * oneBlockSize) / oneBlockSize);
-    }
-
-}
+    };

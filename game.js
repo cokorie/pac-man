@@ -56,7 +56,9 @@ let update = () => {
 };
 
 let drawFoods = () => {
-    
+    for(let i = 0; i < map.length; i++) {
+        
+    }
 };
 
 let draw = () => {

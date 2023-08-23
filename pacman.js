@@ -30,7 +30,10 @@ class Pacman {
                     map[i][j] == 2 && 
                     this.getMapX() == j && 
                     this.getMapY() == i
-                ) 
+                )  {
+                    map[i][j] = 3;
+                    
+                }
                 }
             }
         }

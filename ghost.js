@@ -11,10 +11,6 @@ class Ghost {
         this.imageHeight = imageHeight;
         this.imageWidth = imageWidth;
         this.range = range;
-
-        setInterval(() => {
-            this.changeAnimation();
-        }, 100);
     }
 
     moveProcess() {

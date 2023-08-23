@@ -9,6 +9,7 @@ class Ghost {
         this.imageX = imageX;
         this.imageY = imageY;
         this.imageHeight = imageHeight;
+        this.imageWidth = imageWidth;
 
         setInterval(() => {
             this.changeAnimation();

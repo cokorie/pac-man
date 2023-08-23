@@ -78,7 +78,8 @@ let drawScore = () => {
     canvasContext.font = "20px Emulogic";
     canvasContext.fillStyle = "white";
     canvasContext.fillText(
-        "Score: " + score
+        "Score: " + score,
+        0,
     );
 }
 

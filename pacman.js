@@ -83,7 +83,7 @@ class Pacman {
             return;
 
         let tempDirection = this.direction;
-        
+        this.direction = this.nextDirection;
     }
 
     changeAnimation() {

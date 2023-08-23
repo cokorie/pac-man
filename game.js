@@ -80,6 +80,7 @@ let drawScore = () => {
     canvasContext.fillText(
         "Score: " + score,
         0,
+        oneBlockSize * (map.length + 1);
     );
 }
 

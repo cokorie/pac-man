@@ -24,7 +24,9 @@ class Pacman {
     }
 
     eat() {
-
+        for (let i = 0; i < map.length; i++) {
+            
+        }
     }
 
     moveBackwards() {

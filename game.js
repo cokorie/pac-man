@@ -55,6 +55,7 @@ let gameLoop = () => {
 
 let update = () => {
     pacman.moveProcess();
+    pacman.eat();
 };
 
 let drawFoods = () => {

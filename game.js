@@ -62,6 +62,7 @@ let drawFoods = () => {
                 createRect(
                     j * oneBlockSize + oneBlockSize / 3,
                     i * oneBlockSize + oneBlockSize / 3,
+                    oneBlockSize / 3,
                 )
             }
         }

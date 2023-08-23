@@ -82,6 +82,7 @@ class Pacman {
         if(this.direction == this.nextDirection)
             return;
 
+        let tempDirection = this.direction;
         
     }
 

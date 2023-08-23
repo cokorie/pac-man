@@ -14,6 +14,7 @@ let wallColor = "#342DCA";
 let wallSpaceWidth = oneBlockSize / 1.5;
 let wallOffset = (oneBlockSize - wallSpaceWidth) / 2;
 let wallInnerColor = "black";
+let foodColor = "#FEB897";
 
 const DIRECTION_RIGHT = 4;
 const DIRECTION_UP = 3;
@@ -64,7 +65,7 @@ let drawFoods = () => {
                     i * oneBlockSize + oneBlockSize / 3,
                     oneBlockSize / 3,
                     oneBlockSize / 3,
-                )
+                );
             }
         }
     }

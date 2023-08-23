@@ -80,14 +80,15 @@ let drawScore = () => {
     canvasContext.fillText(
         "Score: " + score,
         0,
-        oneBlockSize * (map.length + 1);
+        oneBlockSize * (map.length + 1)
     );
-}
+};
 
 let draw = () => {
     createRect(0, 0, canvas.width, canvas.height, "black");
     drawWalls();
     pacman.draw();
+    drawScore();
 };
 
 let gameInterval = setInterval(gameLoop, 1000/fps);

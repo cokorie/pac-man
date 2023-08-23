@@ -1,5 +1,5 @@
 class Ghost {
-    constructor(x, y, width, height, speed) {
+    constructor(x, y, width, height, speed, imageX,) {
         this.x = x;
         this.y = y;
         this.width = width;

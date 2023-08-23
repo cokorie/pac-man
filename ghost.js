@@ -7,6 +7,7 @@ class Ghost {
         this.speed = speed;
         this.direction = DIRECTION_RIGHT;
         this.imageX = imageX;
+        this.imageY = imageY;
 
         setInterval(() => {
             this.changeAnimation();

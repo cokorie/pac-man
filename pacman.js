@@ -79,7 +79,10 @@ class Pacman {
     }
 
     changeDirectionIfPossible() {
+        if(this.direction == this.nextDirection)
+            return;
 
+        
     }
 
     changeAnimation() {

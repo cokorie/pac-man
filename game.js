@@ -77,6 +77,9 @@ let drawFoods = () => {
 let drawScore = () => {
     canvasContext.font = "20px Emulogic";
     canvasContext.fillStyle = "white";
+    canvasContext.fillText(
+        
+    );
 }
 
 let draw = () => {

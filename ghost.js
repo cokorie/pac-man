@@ -80,6 +80,7 @@ class Ghost {
         ) {
             return true;
         }
+        return false;
     }
 
     changeDirectionIfPossible() {

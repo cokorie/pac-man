@@ -14,6 +14,10 @@ class Ghost {
     }
 
     moveProcess() {
+        if(this.isInRangeOfPacman()) {
+            
+        }
+
         this.changeDirectionIfPossible();
         this.moveForwards();
         if(this.checkCollision()) {

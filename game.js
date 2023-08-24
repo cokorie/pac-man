@@ -121,6 +121,10 @@ let createNewPacman = () => {
     );
 };
 
+let createGhosts = () => {
+    
+}
+
 createNewPacman();
 gameLoop();
 

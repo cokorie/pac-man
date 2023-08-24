@@ -73,6 +73,8 @@ class Ghost {
     }
 
     changeDirectionIfPossible() {
+        let tempDirection = this.direction;
+        
         this.moveForwards();
         if(this.checkCollision()) {
             this.moveBackwards();

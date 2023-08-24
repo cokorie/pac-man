@@ -17,6 +17,7 @@ let wallInnerColor = "black";
 let foodColor = "#FEB897";
 let score = 0;
 let ghosts = [];
+let ghostCount = 4;
 
 const DIRECTION_RIGHT = 4;
 const DIRECTION_UP = 3;

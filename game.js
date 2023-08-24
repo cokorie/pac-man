@@ -129,6 +129,7 @@ let createGhosts = () => {
             9 * oneBlockSize + (i % 2 == 0 ? 0 : 1) * oneBlockSize,
             10 * oneBlockSize + (i % 2 == 0 ? 0 : 1) * oneBlockSize,
             oneBlockSize,
+            oneBlockSize,
         )
     }
 }

@@ -72,6 +72,10 @@ class Ghost {
 
     }
 
+    isInRangeOfPacman() {
+        
+    }
+
     changeDirectionIfPossible() {
         let tempDirection = this.direction;
 

@@ -78,6 +78,7 @@ class Ghost {
         this.direction = this.calculateNewDirection(
             map,
             parseInt(this.target.x / oneBlockSize),
+            parseInt(this.target.y / oneBlockSize),
         );
 
         this.moveForwards();

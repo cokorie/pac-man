@@ -126,7 +126,7 @@ let createGhosts = () => {
     ghosts = [];
     for(let i = 0; i < 1; i++) {
         let newGhost = new Ghost(
-            
+            9 * oneBlockSize + (i % 2 == 0 ? 0 : 1) * oneBlockSize,
         )
     }
 }

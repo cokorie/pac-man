@@ -148,6 +148,7 @@ let createGhosts = () => {
 }
 
 createNewPacman();
+createGhosts();
 gameLoop();
 
 window.addEventListener("keydown", (event) => {

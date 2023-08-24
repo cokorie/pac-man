@@ -92,6 +92,10 @@ let drawScore = () => {
     );
 };
 
+let drawGhosts = () => {
+
+};
+
 let draw = () => {
     createRect(0, 0, canvas.width, canvas.height, "black");
     drawWalls();

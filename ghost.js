@@ -15,7 +15,7 @@ class Ghost {
 
     moveProcess() {
         if(this.isInRangeOfPacman()) {
-            
+            target = pacman
         }
 
         this.changeDirectionIfPossible();

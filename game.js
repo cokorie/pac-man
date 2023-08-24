@@ -124,6 +124,9 @@ let createNewPacman = () => {
 
 let createGhosts = () => {
     ghosts = [];
+    for(let i = 0; i < 1; i++) {
+        
+    }
 }
 
 createNewPacman();

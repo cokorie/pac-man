@@ -77,7 +77,9 @@ class Ghost {
         let yDistance = Math.abs(pacman.getMapY() - this.getMapY());
         if (
             Math.sqrt(xDistance * xDistance + yDistance * yDistance) <= this.range
-        )
+        ) {
+            return true;
+        }
     }
 
     changeDirectionIfPossible() {

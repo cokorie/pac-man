@@ -24,7 +24,10 @@ const DIRECTION_LEFT = 2;
 const DIRECTION_BOTTOM = 1;
 
 let ghostLocations = [
-    
+    {x: 0, y: 0},
+    {x: 176, y: 0},
+    {x: 0, y: 121},
+    {x: 176, y: 121},
 ];
 
 let map = [

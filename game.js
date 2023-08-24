@@ -16,6 +16,7 @@ let wallOffset = (oneBlockSize - wallSpaceWidth) / 2;
 let wallInnerColor = "black";
 let foodColor = "#FEB897";
 let score = 0;
+let ghosts = [];
 
 const DIRECTION_RIGHT = 4;
 const DIRECTION_UP = 3;
@@ -122,7 +123,7 @@ let createNewPacman = () => {
 };
 
 let createGhosts = () => {
-    
+
 }
 
 createNewPacman();

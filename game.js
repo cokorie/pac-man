@@ -140,6 +140,7 @@ let createGhosts = () => {
             pacman.speed / 2,
             ghostLocations[i % 4].x,
             ghostLocations[i % 4].y,
+            124,
         )
     }
 }

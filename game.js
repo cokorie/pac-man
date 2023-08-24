@@ -142,6 +142,7 @@ let createGhosts = () => {
             ghostLocations[i % 4].y,
             124,
             116,
+            6 + i,
         )
     }
 }

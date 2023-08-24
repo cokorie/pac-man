@@ -73,7 +73,7 @@ class Ghost {
     }
 
     isInRangeOfPacman() {
-        
+        let xDistance = Math.abs(pacman.getMapX() - this.getMapX());
     }
 
     changeDirectionIfPossible() {

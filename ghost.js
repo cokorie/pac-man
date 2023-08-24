@@ -76,7 +76,7 @@ class Ghost {
         let tempDirection = this.direction;
 
         this.direction = this.calculateNewDirection(
-
+            map,
         );
 
         this.moveForwards();

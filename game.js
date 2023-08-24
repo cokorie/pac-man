@@ -25,7 +25,7 @@ const DIRECTION_LEFT = 2;
 const DIRECTION_BOTTOM = 1;
 
 let randomTargetsForGhosts = [
-    
+    {x: 1 * oneBlockSize, y: 1 * oneBlockSize},
 ];
 
 let ghostLocations = [

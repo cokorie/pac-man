@@ -109,7 +109,7 @@ class Ghost {
 
     draw() {
         canvasContext.save();
-        canvasContext.drawImage(ghostFrames, this.imageX, 0, oneBlockSize, oneBlockSize, this.x, this.y, this.width, this.height);
+        canvasContext.drawImage(ghostFrames, this.imageX, this.imageY, oneBlockSize, oneBlockSize, this.x, this.y, this.width, this.height);
 
         canvasContext.restore();
     };

@@ -150,7 +150,8 @@ let createGhosts = () => {
             124,
             116,
             6 + i,
-        )
+        );
+        ghosts.push(newGhost);
     }
 }
 

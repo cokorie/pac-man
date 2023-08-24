@@ -123,7 +123,7 @@ let createNewPacman = () => {
 };
 
 let createGhosts = () => {
-
+    ghosts = [];
 }
 
 createNewPacman();

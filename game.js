@@ -130,6 +130,7 @@ let createGhosts = () => {
             10 * oneBlockSize + (i % 2 == 0 ? 0 : 1) * oneBlockSize,
             oneBlockSize,
             oneBlockSize,
+            pacman.speed / 2,
         )
     }
 }

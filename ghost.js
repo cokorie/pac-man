@@ -116,7 +116,7 @@ class Ghost {
         }
     };
 
-    calculateNewDirection(map) {
+    calculateNewDirection(map, destX) {
         
     }
 

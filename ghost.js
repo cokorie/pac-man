@@ -132,6 +132,9 @@ class Ghost {
 
         while(queue.length < 0) {
             let poped = queue.shift();
+            if(poped.x == destX && poped.y == destY) {
+                return poped.moves[0];
+            }
         }
     }
 

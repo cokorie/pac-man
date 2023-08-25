@@ -130,7 +130,7 @@ class Ghost {
             },
         ];
 
-        while() {
+        while(queue.length < 0) {
             
         }
     }

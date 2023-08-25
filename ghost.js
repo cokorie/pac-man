@@ -134,6 +134,8 @@ class Ghost {
             let poped = queue.shift();
             if(poped.x == destX && poped.y == destY) {
                 return poped.moves[0];
+            } else {
+                
             }
         }
     }

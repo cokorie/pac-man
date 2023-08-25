@@ -17,6 +17,10 @@ class Ghost {
         });
     }
 
+    changeRandomDirection() {
+        
+    }
+
     moveProcess() {
         if(this.isInRangeOfPacman()) {
             target = pacman;

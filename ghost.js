@@ -119,7 +119,7 @@ class Ghost {
     calculateNewDirection(map, destX, destY) {
         let mp = [];
         for (let i = 0; i < map.length; i++) {
-            
+            mp[i] = map[i].slice();
         }
     }
 

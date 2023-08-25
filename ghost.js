@@ -149,6 +149,7 @@ class Ghost {
             poped.x - 1 >= 0 && poped.x - 1 < numOfRows && mp[poped.y][poped.x - 1] != 1
         ) {
             let tempMoves = poped.moves.slice();
+            tempMoves.push(DIRECTION_LEFT);
         }
     }
 

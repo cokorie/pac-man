@@ -145,7 +145,9 @@ class Ghost {
         let numOfRows = mp.length;
         let numOfColumns = mp[0].length;
 
-        
+        if(
+            
+        )
     }
 
     changeAnimation() {

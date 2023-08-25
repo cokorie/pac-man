@@ -129,6 +129,10 @@ class Ghost {
                 moves: [],
             },
         ];
+
+        while() {
+            
+        }
     }
 
     changeAnimation() {

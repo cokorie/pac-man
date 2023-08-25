@@ -160,6 +160,13 @@ class Ghost {
             tempMoves.push(DIRECTION_RIGHT);
             queue.push({x: poped.x + 1, y: poped.y, moves: tempMoves});
         }
+        if (
+            poped.y - 1 >= 0 && poped.y - 1 < numOfRows && mp[poped.y - 1][poped.x] != 1
+        ) {
+            let tempMoves = poped.moves.slice();
+            tempMoves.push(DIRECTION_UP);
+            queue.push({x: poped.x, y: poped.y - 1, moves: tempMoves});
+        }
     }
 
     changeAnimation() {

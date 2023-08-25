@@ -142,6 +142,8 @@ class Ghost {
                 }
             }
         }
+
+        return DIRECTION_UP;
     }
 
     addNeighbors(poped, mp) {

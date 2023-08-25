@@ -121,6 +121,10 @@ class Ghost {
         for (let i = 0; i < map.length; i++) {
             mp[i] = map[i].slice();
         }
+
+        let queue = [
+            
+        ];
     }
 
     changeAnimation() {

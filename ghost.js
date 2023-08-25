@@ -12,6 +12,9 @@ class Ghost {
         this.imageWidth = imageWidth;
         this.range = range;
         this.randomTargetIndex = parseInt(Math.random() * randomTargetsForGhosts.length);
+        setInterval(() => {
+            
+        });
     }
 
     moveProcess() {

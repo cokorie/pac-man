@@ -14,7 +14,7 @@ class Ghost {
         this.randomTargetIndex = parseInt(Math.random() * randomTargetsForGhosts.length);
         setInterval(() => {
             this.changeRandomDirection()
-        });
+        }, 10000);
     }
 
     changeRandomDirection() {

@@ -107,6 +107,10 @@ class Ghost {
             parseInt(this.target.y / oneBlockSize),
         );
 
+        if (typeof this.direction == "undefined") {
+            
+        }
+
         this.moveForwards();
         if(this.checkCollision()) {
             this.moveBackwards();

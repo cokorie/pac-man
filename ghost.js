@@ -135,7 +135,7 @@ class Ghost {
             if(poped.x == destX && poped.y == destY) {
                 return poped.moves[0];
             } else {
-                
+                mp[poped.y][poped.x] = 1;
             }
         }
     }

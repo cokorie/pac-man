@@ -136,6 +136,7 @@ class Ghost {
                 return poped.moves[0];
             } else {
                 mp[poped.y][poped.x] = 1;
+                let neighborList = this.addNeighbors(poped, mp);
             }
         }
     }

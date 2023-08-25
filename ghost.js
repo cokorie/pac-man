@@ -131,7 +131,7 @@ class Ghost {
         ];
 
         while(queue.length < 0) {
-            
+            let poped = queue.shift();
         }
     }
 

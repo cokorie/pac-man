@@ -123,7 +123,9 @@ class Ghost {
         }
 
         let queue = [
-            
+            {
+                x: this.getMapX(),
+            };
         ];
     }
 

@@ -18,7 +18,7 @@ class Ghost {
     }
 
     changeRandomDirection() {
-        
+        this.randomTargetIndex += 1;
     }
 
     moveProcess() {

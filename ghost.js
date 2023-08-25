@@ -13,7 +13,7 @@ class Ghost {
         this.range = range;
         this.randomTargetIndex = parseInt(Math.random() * randomTargetsForGhosts.length);
         setInterval(() => {
-            
+            this.changeRandomDirection()
         });
     }
 

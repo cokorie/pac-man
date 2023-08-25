@@ -17,7 +17,7 @@ class Ghost {
         if(this.isInRangeOfPacman()) {
             target = pacman;
         } else {
-            this.target = range;
+            this.target = randomTargetsForGhosts;
         }
 
         this.changeDirectionIfPossible();

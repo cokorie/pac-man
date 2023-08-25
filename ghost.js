@@ -150,6 +150,7 @@ class Ghost {
         ) {
             let tempMoves = poped.moves.slice();
             tempMoves.push(DIRECTION_LEFT);
+            queue.push({x: poped.x - 1, y: poped.y, moves: tempMoves});
         }
     }
 

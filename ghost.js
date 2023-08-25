@@ -141,7 +141,7 @@ class Ghost {
     }
 
     addNeighbors(poped, mp) {
-        
+        let queue = [];
     }
 
     changeAnimation() {

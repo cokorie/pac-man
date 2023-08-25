@@ -109,6 +109,7 @@ class Ghost {
 
         if (typeof this.direction == "undefined") {
             this.direction = tempDirection;
+            return;
         }
 
         this.moveForwards();

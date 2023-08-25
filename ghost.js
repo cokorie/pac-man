@@ -125,6 +125,7 @@ class Ghost {
         let queue = [
             {
                 x: this.getMapX(),
+                y: this.getMapY(),
             };
         ];
     }

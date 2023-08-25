@@ -118,6 +118,9 @@ class Ghost {
 
     calculateNewDirection(map, destX, destY) {
         let mp = [];
+        for (let i = 0; i < map.length; i++) {
+            
+        }
     }
 
     changeAnimation() {

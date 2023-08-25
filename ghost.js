@@ -140,7 +140,7 @@ class Ghost {
         }
     }
 
-    addNeighbors() {
+    addNeighbors(poped, mp) {
         
     }
 

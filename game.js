@@ -82,9 +82,9 @@ let update = () => {
     }
 };
 
-let restartGame = () = {
+let restartGame = () => {
     createNewPacman();
-    
+    createGhosts();
 };
 
 let drawFoods = () => {

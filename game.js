@@ -83,6 +83,7 @@ let update = () => {
 };
 
 let restartGame = () = {
+    createNewPacman();
     
 };
 

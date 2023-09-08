@@ -89,6 +89,10 @@ let update = () => {
         console.log("HIT!");
         restartGame();
     }
+
+    if(score >= foodCount) {
+        
+    }
 };
 
 let restartGame = () => {

@@ -24,7 +24,7 @@ class Ghost {
 
     moveProcess() {
         if(this.isInRangeOfPacman()) {
-            target = pacman;
+            this.target = pacman;
         } else {
             this.target = randomTargetsForGhosts[this.randomTargetIndex];
         }

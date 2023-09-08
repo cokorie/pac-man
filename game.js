@@ -99,7 +99,7 @@ let gameOver = () => {
 let drawLives = () => {
     canvasContext.font = "20px Emulogic";
     canvasContext.fillStyle = "white";
-    
+    canvasContext.fillText("Lives: ", 200, oneBlockSize * (map.length + 1));
 }
 
 let drawFoods = () => {

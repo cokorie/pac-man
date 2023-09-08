@@ -59,6 +59,10 @@ let map = [
     [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],
 ];
 
+for (let i = 0; i < map.length; i++) {
+    
+}
+
 let randomTargetsForGhosts = [
     {x: 1 * oneBlockSize, y: 1 * oneBlockSize},
     {x: 1 * oneBlockSize, y: (map.length - 2) * oneBlockSize},

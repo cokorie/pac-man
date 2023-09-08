@@ -77,6 +77,9 @@ let update = () => {
         ghosts[i].moveProcess();
     }
 
+    if(pacman.checkGhostCollision()) {
+
+    }
 };
 
 let drawFoods = () => {

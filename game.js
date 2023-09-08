@@ -97,7 +97,7 @@ let gameOver = () => {
 }
 
 let drawLives = () => {
-
+    canvasContext.font = "20px Emulogic";
 }
 
 let drawFoods = () => {

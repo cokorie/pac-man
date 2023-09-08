@@ -78,8 +78,12 @@ let update = () => {
     }
 
     if(pacman.checkGhostCollision()) {
-        console.log("HIT!")
+        console.log("HIT!");
     }
+};
+
+let restartGame = () = {
+    
 };
 
 let drawFoods = () => {

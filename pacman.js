@@ -93,6 +93,7 @@ class Pacman {
                 return true;
             }
         }
+        return false;
     }
 
     changeDirectionIfPossible() {

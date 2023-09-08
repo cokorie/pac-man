@@ -93,6 +93,7 @@ let restartGame = () => {
 };
 
 let gameOver = () => {
+    drawGameOver();
     clearInterval(gameInterval);
 }
 

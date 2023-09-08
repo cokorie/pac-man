@@ -96,6 +96,10 @@ let gameOver = () => {
     clearInterval(gameInterval);
 }
 
+let drawGameOver = () => {
+
+};
+
 let drawLives = () => {
     canvasContext.font = "20px Emulogic";
     canvasContext.fillStyle = "white";

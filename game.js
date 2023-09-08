@@ -141,6 +141,7 @@ let draw = () => {
     pacman.draw();
     drawScore();
     drawGhosts();
+    drawLives();
 };
 
 let gameInterval = setInterval(gameLoop, 1000/fps);

@@ -91,7 +91,7 @@ let update = () => {
     }
 
     if(score >= foodCount) {
-        
+        drawWin();
     }
 };
 

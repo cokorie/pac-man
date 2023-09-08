@@ -88,7 +88,7 @@ let restartGame = () => {
     createGhosts();
     lives--;
     if(lives == 0) {
-
+        gameOver();
     }
 };
 

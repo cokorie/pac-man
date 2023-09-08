@@ -65,8 +65,8 @@ let randomTargetsForGhosts = [
 ];
 
 let gameLoop = () => {
-    update();
     draw();
+    update();
 };
 
 let update = () => {

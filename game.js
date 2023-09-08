@@ -86,6 +86,9 @@ let restartGame = () => {
     createNewPacman();
     createGhosts();
     lives--;
+    if(lives == 0) {
+        
+    }
 };
 
 let drawFoods = () => {

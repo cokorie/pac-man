@@ -101,7 +101,7 @@ let drawLives = () => {
     canvasContext.fillStyle = "white";
     canvasContext.fillText("Lives: ", 220, oneBlockSize * (map.length + 1) + 10);
     for (let i = 0; i < lives; i++) {
-        canvasContext.drawImage(pacmanFrames);
+        canvasContext.drawImage(pacmanFrames, 2 * oneBlockSize,);
     }
 }
 

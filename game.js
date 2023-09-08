@@ -79,6 +79,7 @@ let update = () => {
 
     if(pacman.checkGhostCollision()) {
         console.log("HIT!");
+        restartGame();
     }
 };
 
@@ -87,7 +88,7 @@ let restartGame = () => {
     createGhosts();
     lives--;
     if(lives == 0) {
-        
+
     }
 };
 

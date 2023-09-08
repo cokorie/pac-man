@@ -97,7 +97,7 @@ let gameOver = () => {
 }
 
 let drawGameOver = () => {
-
+    canvasContext.fillText("Game Over!", 200, 200);
 };
 
 let drawLives = () => {

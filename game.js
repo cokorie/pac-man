@@ -68,7 +68,7 @@ let gameLoop = () => {
     update();
     draw();
     for(let i = 0; i < map.length; i++) {
-        
+        ghosts[i].moveProcess();
     }
 };
 

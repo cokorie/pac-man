@@ -89,9 +89,9 @@ class Pacman {
     checkGhostCollision() {
         for(let i = 0; i < ghosts.length; i++) {
             let ghost = ghost[i];
-            if (
+            if (ghost.getMapX() == this.getMapX() && ghost.getMapY() == this.getMapY()) {
                 
-            )
+            }
         }
     }
 

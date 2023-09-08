@@ -115,6 +115,10 @@ let drawGameOver = () => {
     canvasContext.fillText("Game Over!", 150, 200);
 };
 
+let drawWin = () => {
+
+};
+
 let drawLives = () => {
     canvasContext.font = "20px Emulogic";
     canvasContext.fillStyle = "white";

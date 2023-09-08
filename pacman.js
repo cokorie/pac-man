@@ -87,7 +87,9 @@ class Pacman {
     };
 
     checkGhostCollision() {
-
+        for(let i = 0; i < ghosts.length; i++) {
+            
+        }
     }
 
     changeDirectionIfPossible() {

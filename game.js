@@ -90,7 +90,7 @@ let update = () => {
         restartGame();
     }
 
-    if(score >= foodCount) {
+    if(score >= 10) {
         drawWin();
         clearInterval(gameInterval);
     }

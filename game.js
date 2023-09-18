@@ -116,7 +116,7 @@ let drawGameOver = () => {
 };
 
 let drawWin = () => {
-
+    canvasContext.font = "20px Emulogic";
 };
 
 let drawLives = () => {

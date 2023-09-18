@@ -199,6 +199,7 @@ class Ghost {
 
         canvasContext.beginPath();
         canvasContext.strokeStyle = "red";
+        canvasContext.arc();
     };
 
     getMapX() {

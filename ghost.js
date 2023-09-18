@@ -199,7 +199,7 @@ class Ghost {
 
         canvasContext.beginPath();
         canvasContext.strokeStyle = "red";
-        canvasContext.arc();
+        canvasContext.arc(this.x + oneBlockSize / 2);
         canvasContext.stroke();
     };
 

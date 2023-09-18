@@ -195,8 +195,9 @@ class Ghost {
     draw() {
         canvasContext.save();
         canvasContext.drawImage(ghostFrames, this.imageX, this.imageY, this.imageWidth, this.imageHeight, this.x, this.y, this.width, this.height);
-
         canvasContext.restore();
+
+        canvasContext.beginPath();
     };
 
     getMapX() {

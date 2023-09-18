@@ -18,7 +18,7 @@ class Ghost {
     }
 
     changeRandomDirection() {
-        this.randomTargetIndex += 1;
+        this.randomTargetIndex += parseInt(Math.random() * 4);
         this.randomTargetIndex = this.randomTargetIndex % 4;
     }
 

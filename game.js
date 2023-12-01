@@ -94,6 +94,14 @@ let restartPacmanAndGhosts = () => {
     createGhosts();
 };
 
+let onGhostCollision = () => {
+    lives--;
+    restartPacmanAndGhosts();
+    if (lives == 0) {
+        
+    }
+};
+
 let update = () => {
     pacman.moveProcess();
     pacman.eat();

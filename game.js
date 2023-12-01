@@ -23,12 +23,14 @@ let ghostLocations = [
 
 // Important game character variables
 let fps = 30;
+let pacman;
 let oneBlockSize = 20;
 let score = 0;
 let ghosts = [];
 let wallSpaceWidth = oneBlockSize / 1.5;
 let wallOffset = (oneBlockSize - wallSpaceWidth) / 2;
 let wallInnerColor = "black";
+
 let wallColor = "#342DCA";
 let foodColor = "#FEB897";
 let foodCount = 0;

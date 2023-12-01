@@ -24,13 +24,13 @@ let ghostLocations = [
 // Important game character variables
 let fps = 30;
 let oneBlockSize = 20;
-let wallColor = "#342DCA";
+let score = 0;
+let ghosts = [];
 let wallSpaceWidth = oneBlockSize / 1.5;
 let wallOffset = (oneBlockSize - wallSpaceWidth) / 2;
 let wallInnerColor = "black";
+let wallColor = "#342DCA";
 let foodColor = "#FEB897";
-let score = 0;
-let ghosts = [];
 let foodCount = 0;
 
 let map = [

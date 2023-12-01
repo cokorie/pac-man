@@ -155,6 +155,10 @@ let drawFoods = () => {
     }
 };
 
+let drawRemainingLives = () => {
+
+};
+
 let gameOver = () => {
     drawGameOver();
     clearInterval(gameInterval);

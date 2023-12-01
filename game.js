@@ -131,15 +131,31 @@ let update = () => {
 // };
 
 // let restartGame = () => {
-//     createNewPacman();
-//     createGhosts();
-//     lives--;
-//     if(lives == 0) {
-//         gameOver();
-//     }
-// };
+    //     createNewPacman();
+    //     createGhosts();
+    //     lives--;
+    //     if(lives == 0) {
+        //         gameOver();
+        //     }
+        // };
+        
+let drawFoods = () => {
+    for (let i = 0; i < map.length; i++) {
+        for (let j = 0; j < map[0].length; j++) {
+            if (map[i][j] == 2) {
+                createRect(
+                    j * oneBlockSize + oneBlockSize / 3,
+                    i * oneBlockSize + oneBlockSize / 3,
+                    oneBlockSize / 3,
+                    oneBlockSize / 3,
+                    foodColor
+                );
+            }
+        }
+    }
+};
 
-let gameOver = () => {
+        let gameOver = () => {
     drawGameOver();
     clearInterval(gameInterval);
 }
@@ -165,21 +181,6 @@ let drawLives = () => {
     }
 }
 
-let drawFoods = () => {
-    for (let i = 0; i < map.length; i++) {
-        for (let j = 0; j < map[0].length; j++) {
-            if (map[i][j] == 2) {
-                createRect(
-                    j * oneBlockSize + oneBlockSize / 3,
-                    i * oneBlockSize + oneBlockSize / 3,
-                    oneBlockSize / 3,
-                    oneBlockSize / 3,
-                    foodColor
-                );
-            }
-        }
-    }
-};
 
 let drawScore = () => {
     canvasContext.font = "20px Emulogic";

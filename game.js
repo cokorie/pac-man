@@ -70,11 +70,11 @@ let randomTargetsForGhosts = [
     {x: (map[0].length - 2) * oneBlockSize, y: (map.length - 2) * oneBlockSize},
 ];
 
-for (let i = 0; i < map.length; i++) {
-    for (let j = 0; j < map.length; j++) {
-        foodCount++;
-    }
-}
+// for (let i = 0; i < map.length; i++) {
+//     for (let j = 0; j < map.length; j++) {
+//         foodCount++;
+//     }
+// }
 
 
 let gameLoop = () => {

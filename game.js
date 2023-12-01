@@ -87,6 +87,8 @@ let gameLoop = () => {
     update();
 };
 
+let gameInterval = setInterval(gameLoop, 1000 / fps);
+
 let update = () => {
     pacman.moveProcess();
     pacman.eat();
@@ -182,8 +184,6 @@ let draw = () => {
     drawGhosts();
     drawLives();
 };
-
-let gameInterval = setInterval(gameLoop, 1000/fps);
 
 let drawWalls = () => {
     for(let i = 0; i < map.length; i++) {

@@ -98,28 +98,37 @@ let onGhostCollision = () => {
     lives--;
     restartPacmanAndGhosts();
     if (lives == 0) {
-        
+
     }
 };
 
 let update = () => {
     pacman.moveProcess();
     pacman.eat();
-    
-    for(let i = 0; i < map.length; i++) {
-        ghosts[i].moveProcess();
-    }
-
-    if(pacman.checkGhostCollision()) {
-        console.log("HIT!");
-        restartGame();
-    }
-
-    if(score >= foodCount) {
-        drawWin();
-        clearInterval(gameInterval);
+    updateGhosts();
+    if (pacman.checkGhostCollision(ghosts)) {
+        onGhostCollision();
     }
 };
+
+// let update = () => {
+//     pacman.moveProcess();
+//     pacman.eat();
+    
+//     for(let i = 0; i < map.length; i++) {
+//         ghosts[i].moveProcess();
+//     }
+
+//     if(pacman.checkGhostCollision()) {
+//         console.log("HIT!");
+//         restartGame();
+//     }
+
+//     if(score >= foodCount) {
+//         drawWin();
+//         clearInterval(gameInterval);
+//     }
+// };
 
 // let restartGame = () => {
 //     createNewPacman();

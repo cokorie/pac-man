@@ -8,6 +8,11 @@ let createRect = (x, y, width, height, color) => {
     canvasContext.fillRect(x, y, width, height);
 };
 
+const DIRECTION_RIGHT = 4;
+const DIRECTION_UP = 3;
+const DIRECTION_LEFT = 2;
+const DIRECTION_BOTTOM = 1;
+
 let fps = 30;
 let oneBlockSize = 20;
 let wallColor = "#342DCA";
@@ -20,11 +25,6 @@ let ghosts = [];
 let ghostCount = 4;
 let lives = 3;
 let foodCount = 0;
-
-const DIRECTION_RIGHT = 4;
-const DIRECTION_UP = 3;
-const DIRECTION_LEFT = 2;
-const DIRECTION_BOTTOM = 1;
 
 let ghostLocations = [
     {x: 0, y: 0},

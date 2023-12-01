@@ -89,6 +89,11 @@ let gameLoop = () => {
 
 let gameInterval = setInterval(gameLoop, 1000 / fps);
 
+let restartPacmanAndGhosts = () => {
+    createNewPacman();
+    createGhosts();
+};
+
 let update = () => {
     pacman.moveProcess();
     pacman.eat();
@@ -108,14 +113,14 @@ let update = () => {
     }
 };
 
-let restartGame = () => {
-    createNewPacman();
-    createGhosts();
-    lives--;
-    if(lives == 0) {
-        gameOver();
-    }
-};
+// let restartGame = () => {
+//     createNewPacman();
+//     createGhosts();
+//     lives--;
+//     if(lives == 0) {
+//         gameOver();
+//     }
+// };
 
 let gameOver = () => {
     drawGameOver();

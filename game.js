@@ -13,6 +13,7 @@ const DIRECTION_UP = 3;
 const DIRECTION_LEFT = 2;
 const DIRECTION_BOTTOM = 1;
 let lives = 3;
+let ghostCount = 4;
 
 let fps = 30;
 let oneBlockSize = 20;
@@ -23,7 +24,6 @@ let wallInnerColor = "black";
 let foodColor = "#FEB897";
 let score = 0;
 let ghosts = [];
-let ghostCount = 4;
 let foodCount = 0;
 
 let ghostLocations = [

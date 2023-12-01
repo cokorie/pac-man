@@ -21,6 +21,7 @@ let ghostLocations = [
     {x: 176, y: 121},
 ];
 
+// Important game character variables
 let fps = 30;
 let oneBlockSize = 20;
 let wallColor = "#342DCA";

@@ -14,6 +14,12 @@ const DIRECTION_LEFT = 2;
 const DIRECTION_BOTTOM = 1;
 let lives = 3;
 let ghostCount = 4;
+let ghostLocations = [
+    {x: 0, y: 0},
+    {x: 176, y: 0},
+    {x: 0, y: 121},
+    {x: 176, y: 121},
+];
 
 let fps = 30;
 let oneBlockSize = 20;
@@ -25,13 +31,6 @@ let foodColor = "#FEB897";
 let score = 0;
 let ghosts = [];
 let foodCount = 0;
-
-let ghostLocations = [
-    {x: 0, y: 0},
-    {x: 176, y: 0},
-    {x: 0, y: 121},
-    {x: 176, y: 121},
-];
 
 let map = [
     [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],

@@ -35,6 +35,7 @@ let wallColor = "#342DCA";
 let foodColor = "#FEB897";
 let foodCount = 0;
 
+// Wall mapping (1 = wall, 0 = no wall)
 let map = [
     [1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1],
     [1,2,2,2,2, 2,2,2,2,2, 1,2,2,2,2, 2,2,2,2,2, 1],

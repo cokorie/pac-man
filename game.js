@@ -157,6 +157,7 @@ let drawFoods = () => {
 
 let drawRemainingLives = () => {
     canvasContext.font = "20px Emulogic";
+    canvasContext.fillStyle = "white";
 };
 
 let gameOver = () => {

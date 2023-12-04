@@ -181,8 +181,18 @@ let drawScore = () => {
     canvasContext.fillText(
         "Score: " + score,
         0,
-        oneBlockSize * (map.length + 1) 
+        oneBlockSize * (map.length + 1)
     );
+};
+
+let draw = () => {
+    createRect(0, 0, canvas.width, canvas.height, "black");
+    drawWalls();
+    drawFoods();
+    pacman.draw();
+    drawScore();
+    drawGhosts();
+    drawLives();
 };
 
 let gameOver = () => {
@@ -215,16 +225,6 @@ let drawGhosts = () => {
     for(let i = 0; i < ghosts.length; i++) {
         ghosts[i].draw();
     }
-};
-
-let draw = () => {
-    createRect(0, 0, canvas.width, canvas.height, "black");
-    drawWalls();
-    drawFoods();
-    pacman.draw();
-    drawScore();
-    drawGhosts();
-    drawLives();
 };
 
 let drawWalls = () => {

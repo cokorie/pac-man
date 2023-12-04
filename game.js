@@ -162,6 +162,7 @@ let drawRemainingLives = () => {
 
     for (let i = 0; i < lives; i++) {
         canvasContext.drawImage(
+            pacmanFrames,
             
         );
     }

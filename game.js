@@ -237,6 +237,10 @@ let createGhosts = () => {
     }
 };
 
+createNewPacman();
+createGhosts();
+gameLoop();
+
 let gameOver = () => {
     drawGameOver();
     clearInterval(gameInterval);
@@ -268,10 +272,6 @@ let drawGhosts = () => {
         ghosts[i].draw();
     }
 };
-
-createNewPacman();
-createGhosts();
-gameLoop();
 
 window.addEventListener("keydown", (event) => {
     let k = event.keyCode;

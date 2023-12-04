@@ -167,6 +167,7 @@ let drawRemainingLives = () => {
             0,
             oneBlockSize,
             oneBlockSize,
+            350 + i * oneBlockSize,
             
         );
     }

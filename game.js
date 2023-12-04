@@ -190,10 +190,10 @@ let draw = () => {
     createRect(0, 0, canvas.width, canvas.height, "black");
     drawWalls();
     drawFoods();
+    drawGhosts();
     pacman.draw();
     drawScore();
-    drawGhosts();
-    drawLives();
+    drawRemainingLives();
 };
 
 let gameOver = () => {

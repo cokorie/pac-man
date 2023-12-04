@@ -165,6 +165,9 @@ let drawRemainingLives = () => {
             pacmanFrames,
             2 * oneBlockSize,
             0,
+            oneBlockSize,
+            oneBlockSize,
+            
         );
     }
 };

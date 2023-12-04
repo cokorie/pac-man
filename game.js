@@ -164,7 +164,7 @@ let drawRemainingLives = () => {
         canvasContext.drawImage(
             pacmanFrames,
             2 * oneBlockSize,
-            
+            0,
         );
     }
 };

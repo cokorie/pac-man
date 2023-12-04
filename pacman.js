@@ -50,7 +50,7 @@ class Pacman {
             case DIRECTION_LEFT: // moving left
                 this.x += this.speed;
                 break;
-            case DIRECTION_BOTTOM:
+            case DIRECTION_BOTTOM: // moving bottom
                 this.y -= this.speed;
                 break;
 

@@ -175,6 +175,16 @@ let drawRemainingLives = () => {
     }
 };
 
+let drawScore = () => {
+    canvasContext.font = "20px Emulogic";
+    canvasContext.fillStyle = "white";
+    canvasContext.fillText(
+        "Score: " + score,
+        0,
+        oneBlockSize * (map.length + 1)
+    );
+};
+
 let gameOver = () => {
     drawGameOver();
     clearInterval(gameInterval);
@@ -200,17 +210,6 @@ let drawLives = () => {
         canvasContext.drawImage(pacmanFrames, 2 * oneBlockSize, 0, oneBlockSize, oneBlockSize, 350 + i * oneBlockSize, oneBlockSize * map.length + 10, oneBlockSize, oneBlockSize);
     }
 }
-
-
-let drawScore = () => {
-    canvasContext.font = "20px Emulogic";
-    canvasContext.fillStyle = "white";
-    canvasContext.fillText(
-        "Score: " + score,
-        0,
-        oneBlockSize * (map.length + 1) + 10
-    );
-};
 
 let drawGhosts = () => {
     for(let i = 0; i < ghosts.length; i++) {

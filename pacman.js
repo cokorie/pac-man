@@ -19,6 +19,7 @@ class Pacman {
         this.moveForwards();
         if(this.checkCollision()) {
             this.moveBackwards();
+            return;
         }
     }
 

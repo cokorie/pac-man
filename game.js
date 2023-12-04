@@ -161,8 +161,10 @@ let drawRemainingLives = () => {
     canvasContext.fillText = ("Lives: ", 220, oneBlockSize * (map.length + 1));
 
     for (let i = 0; i < lives; i++) {
-        
-    };
+        canvasContext.drawImage(
+            
+        );
+    }
 };
 
 let gameOver = () => {

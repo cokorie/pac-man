@@ -260,34 +260,34 @@ window.addEventListener("keydown", (event) => {
     }, 1);
 });
 
-let gameOver = () => {
-    drawGameOver();
-    clearInterval(gameInterval);
-}
+// let gameOver = () => {
+//     drawGameOver();
+//     clearInterval(gameInterval);
+// }
 
-let drawGameOver = () => {
-    canvasContext.font = "20px Emulogic";
-    canvasContext.fillStyle = "white";
-    canvasContext.fillText("Game Over!", 150, 200);
-};
+// let drawGameOver = () => {
+//     canvasContext.font = "20px Emulogic";
+//     canvasContext.fillStyle = "white";
+//     canvasContext.fillText("Game Over!", 150, 200);
+// };
 
-let drawWin = () => {
-    canvasContext.font = "20px Emulogic";
-    canvasContext.fillStyle = "white";
-    canvasContext.fillText("You Win!", 150, 200);
-};
+// let drawWin = () => {
+//     canvasContext.font = "20px Emulogic";
+//     canvasContext.fillStyle = "white";
+//     canvasContext.fillText("You Win!", 150, 200);
+// };
 
-let drawLives = () => {
-    canvasContext.font = "20px Emulogic";
-    canvasContext.fillStyle = "white";
-    canvasContext.fillText("Lives: ", 220, oneBlockSize * (map.length + 1) + 10);
-    for (let i = 0; i < lives; i++) {
-        canvasContext.drawImage(pacmanFrames, 2 * oneBlockSize, 0, oneBlockSize, oneBlockSize, 350 + i * oneBlockSize, oneBlockSize * map.length + 10, oneBlockSize, oneBlockSize);
-    }
-}
+// let drawLives = () => {
+//     canvasContext.font = "20px Emulogic";
+//     canvasContext.fillStyle = "white";
+//     canvasContext.fillText("Lives: ", 220, oneBlockSize * (map.length + 1) + 10);
+//     for (let i = 0; i < lives; i++) {
+//         canvasContext.drawImage(pacmanFrames, 2 * oneBlockSize, 0, oneBlockSize, oneBlockSize, 350 + i * oneBlockSize, oneBlockSize * map.length + 10, oneBlockSize, oneBlockSize);
+//     }
+// }
 
-let drawGhosts = () => {
-    for(let i = 0; i < ghosts.length; i++) {
-        ghosts[i].draw();
-    }
-};
+// let drawGhosts = () => {
+//     for(let i = 0; i < ghosts.length; i++) {
+//         ghosts[i].draw();
+//     }
+// };

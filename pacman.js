@@ -75,6 +75,7 @@ class Pacman {
     };
 
     checkCollision() {
+        let isCollided = false;
         
     }
 

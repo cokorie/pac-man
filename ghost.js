@@ -46,6 +46,7 @@ class Ghost {
         this.moveForwards();
         if(this.checkCollision()) {
             this.moveBackwards();
+            return;
         }
     }
 

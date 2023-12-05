@@ -219,7 +219,7 @@ class Ghost {
     };
 
     getMapY() {
-        return parseInt(this.y / oneBlockSize);
+        let mapY = parseInt(this.y / oneBlockSize);
     };
 
     getMapXRightSide() {

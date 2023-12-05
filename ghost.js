@@ -259,3 +259,5 @@ class Ghost {
             ghosts[i].draw();
         }
     };
+
+}

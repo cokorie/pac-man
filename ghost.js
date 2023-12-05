@@ -26,6 +26,7 @@ class Ghost {
        ) {
         return true;
        }
+       return false;
     }
 
     changeRandomDirection() {

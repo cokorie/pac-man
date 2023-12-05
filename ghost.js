@@ -124,7 +124,10 @@ class Ghost {
         }
 
         if(
-            
+            this.getMapY() != this.getMapYRightSide() && (this.direction == DIRECTION_LEFT || this.direction == DIRECTION_RIGHT)
+            {
+                this.direction == DIRECTION_UP;
+            }
         )
 
         this.moveForwards();

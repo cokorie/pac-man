@@ -220,6 +220,7 @@ class Ghost {
     };
 
     getMapY() {
+       // mapping ghost up movement (general)
         let mapY = parseInt(this.y / oneBlockSize);
         return mapY;
     };

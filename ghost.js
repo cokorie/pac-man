@@ -256,6 +256,6 @@ class Ghost {
 
     let drawGhosts = () => {
         for(let i = 0; i < ghosts.length; i++) {
-            
+            ghosts[i].draw();
         }
     };

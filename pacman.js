@@ -75,16 +75,20 @@ class Pacman {
     };
 
     checkCollision() {
-        if(
-            map[this.getMapY()][this.getMapX()] == 1 || 
-            map[this.getMapYRightSide()][this.getMapX()] == 1 || 
-            map[this.getMapY()][this.getMapXRightSide()] == 1 || 
-            map[this.getMapYRightSide()][this.getMapXRightSide()] == 1
-        ) {
-            return true;
-        }
-        return false;
-    };
+        
+    }
+
+    // checkCollision() {
+    //     if(
+    //         map[this.getMapY()][this.getMapX()] == 1 || 
+    //         map[this.getMapYRightSide()][this.getMapX()] == 1 || 
+    //         map[this.getMapY()][this.getMapXRightSide()] == 1 || 
+    //         map[this.getMapYRightSide()][this.getMapXRightSide()] == 1
+    //     ) {
+    //         return true;
+    //     }
+    //     return false;
+    // };
 
     checkGhostCollision() {
         for(let i = 0; i < ghosts.length; i++) {

@@ -253,3 +253,7 @@ class Ghost {
             ghosts[i].moveProcess();
         }
     };
+
+    let drawGhosts = () => {
+
+    };

@@ -224,7 +224,7 @@ class Ghost {
     };
 
     getMapXRightSide() {
-        return parseInt((this.x + 0.9999 * oneBlockSize) / oneBlockSize);
+        let mapX = parseInt((this.x * 0.99 + oneBlockSize) / oneBlockSize);
     };
     
     getMapYRightSide() {

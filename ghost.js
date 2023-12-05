@@ -61,7 +61,7 @@ class Ghost {
             case 2: // going left
                 this.x += this.speed;
                 break;
-            case DIRECTION_BOTTOM:
+            case 1: // going down
                 this.y -= this.speed;
                 break;
 

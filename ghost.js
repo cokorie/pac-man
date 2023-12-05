@@ -250,6 +250,6 @@ class Ghost {
 
     let updateGhosts = () => {
         for(let i = 0; i < ghosts.length; i++) {
-            
+            ghosts[i].moveProcess();
         }
     };

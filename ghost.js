@@ -86,6 +86,7 @@ class Ghost {
     };
 
     checkCollision() {
+        let isCollided = false;
         if(
             map[this.getMapY()][this.getMapX()] == 1 || 
             map[this.getMapYRightSide()][this.getMapX()] == 1 || 

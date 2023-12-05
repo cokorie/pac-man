@@ -18,6 +18,10 @@ class Ghost {
         }, 10000);
     }
 
+    isInRange() {
+        
+    }
+
     changeRandomDirection() {
         this.randomTargetIndex += parseInt(Math.random() * 4);
         this.randomTargetIndex = this.randomTargetIndex % 4;

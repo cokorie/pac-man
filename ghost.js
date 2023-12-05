@@ -107,7 +107,7 @@ class Ghost {
     //         return true;
     //     }
     //     return false;
-    }
+    // }
 
     changeDirectionIfPossible() {
         let tempDirection = this.direction;

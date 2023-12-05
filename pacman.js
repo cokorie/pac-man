@@ -145,7 +145,7 @@ class Pacman {
     };
     
     changeAnimation() {
-        this.currentFrame = this.currentFrame == this.frameCount ? 1 : this.currentFrame +1;
+        this.currentFrame = this.currentFrame == this.frameCount ? 1 : this.currentFrame + 1;
     };
 
     draw() {
@@ -156,7 +156,7 @@ class Pacman {
         
         canvasContext.translate(-this.x - oneBlockSize / 2, -this.y - oneBlockSize / 2);
 
-        canvasContext.drawImage(pacmanFrames, (this.currentFrame - 1) / oneBlockSize, 0, oneBlockSize, oneBlockSize, this.x, this.y, this.width, this.height);
+        canvasContext.drawImage(pacmanFrames, (this.currentFrame - 1) * oneBlockSize, 0, oneBlockSize, oneBlockSize, this.x, this.y, this.width, this.height);
 
         canvasContext.restore();
     };

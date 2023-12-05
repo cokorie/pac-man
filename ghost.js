@@ -220,6 +220,7 @@ class Ghost {
 
     getMapY() {
         let mapY = parseInt(this.y / oneBlockSize);
+        return mapY;
     };
 
     getMapXRightSide() {

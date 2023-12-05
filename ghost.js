@@ -214,6 +214,7 @@ class Ghost {
     }
     
     getMapX() {
+        // mapping ghost left movement (general)
         let mapX = parseInt(this.x / oneBlockSize);
         return mapX;
     };

@@ -203,7 +203,7 @@ class Ghost {
             queue.push({x: poped.x, y: poped.y - 1, moves: tempMoves});
         }
         if (
-            poped.y + 1 >= 0 && poped.y + 1 < numOfRows && mp[poped.y + 1][poped.x] != 1
+            poped.y + 1 >= 0 && poped.y + 1 < numOfColumns && mp[poped.y + 1][poped.x] != 1
         ) {
             let tempMoves = poped.moves.slice();
             tempMoves.push(DIRECTION_BOTTOM);

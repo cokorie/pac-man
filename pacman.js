@@ -84,6 +84,7 @@ class Pacman {
         ) {
             isCollided = true;
         }
+        return isCollided;
     }
 
     // checkCollision() {

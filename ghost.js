@@ -98,19 +98,15 @@ class Ghost {
         return isCollided;
     };
 
-    checkGhostCollision() {
-
-    }
-
-    isInRangeOfPacman() {
-        let xDistance = Math.abs(pacman.getMapX() - this.getMapX());
-        let yDistance = Math.abs(pacman.getMapY() - this.getMapY());
-        if (
-            Math.sqrt(xDistance * xDistance + yDistance * yDistance) <= this.range
-        ) {
-            return true;
-        }
-        return false;
+    // isInRangeOfPacman() {
+    //     let xDistance = Math.abs(pacman.getMapX() - this.getMapX());
+    //     let yDistance = Math.abs(pacman.getMapY() - this.getMapY());
+    //     if (
+    //         Math.sqrt(xDistance * xDistance + yDistance * yDistance) <= this.range
+    //     ) {
+    //         return true;
+    //     }
+    //     return false;
     }
 
     changeDirectionIfPossible() {
@@ -126,6 +122,10 @@ class Ghost {
             this.direction = tempDirection;
             return;
         }
+
+        if(
+            
+        )
 
         this.moveForwards();
         if(this.checkCollision()) {

@@ -91,7 +91,7 @@ class Ghost {
             map[parseInt(this.y / oneBlockSize)][this.x / oneBlockSize] == 1 || 
             map[parseInt(this.y / oneBlockSize + 0.9999)][this.x / oneBlockSize] == 1 || 
             map[parseInt(this.y / oneBlockSize)][parseInt(this.x / oneBlockSize + 0.9999)] == 1 || 
-            map[this.getMapYRightSide()][this.getMapXRightSide()] == 1
+            map[parseInt(this.y / oneBlockSize + 0.9999)][parseInt(this.x / oneBlockSize + 0.9999)] == 1
         ) {
             return true;
         }

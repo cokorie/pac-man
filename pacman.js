@@ -140,7 +140,8 @@ class Pacman {
     };
     
     getMapYRightSide() {
-        return parseInt((this.y + 0.9999 * oneBlockSize) / oneBlockSize);
+        let mapY = parseInt((this.y * 0.99 + oneBlockSize) / oneBlockSize);
+        return mapY;
     };
     
     changeAnimation() {

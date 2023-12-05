@@ -173,7 +173,7 @@ class Ghost {
             }
         }
 
-        return DIRECTION_UP;
+        return 1; // up direction
     }
 
     addNeighbors(poped, mp) {

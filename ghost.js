@@ -232,7 +232,7 @@ class Ghost {
     };
     
     getMapYRightSide() {
-        // mapping ghost right up movement (general)
+        // mapping ghost down movement (general)
         let mapY = parseInt((this.y * 0.99 + oneBlockSize) / oneBlockSize);
         return mapY;
     };

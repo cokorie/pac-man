@@ -154,6 +154,7 @@ class Ghost {
             {
                 x: this.getMapX(),
                 y: this.getMapY(),
+                rightX: this.getMapXRightSide(),
                 moves: [],
             },
         ];

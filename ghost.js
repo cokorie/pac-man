@@ -212,6 +212,22 @@ class Ghost {
 
         return queue;
     }
+    
+    getMapX() {
+        let mapX = parseInt(this.x / oneBlockSize);
+    };
+
+    getMapY() {
+        return parseInt(this.y / oneBlockSize);
+    };
+
+    getMapXRightSide() {
+        return parseInt((this.x + 0.9999 * oneBlockSize) / oneBlockSize);
+    };
+    
+    getMapYRightSide() {
+        return parseInt((this.y + 0.9999 * oneBlockSize) / oneBlockSize);
+    };
 
     changeAnimation() {
         this.currentFrame = this.currentFrame == this.frameCount ? 1 : this.currentFrame +1;
@@ -226,20 +242,4 @@ class Ghost {
         canvasContext.strokeStyle = "red";
         canvasContext.arc(this.x + oneBlockSize / 2, this.y + oneBlockSize / 2, this.range * oneBlockSize, 0, 2 * Math.PI);
         canvasContext.stroke();
-    };
-
-    getMapX() {
-        return parseInt(this.x / oneBlockSize);
-    };
-
-    getMapY() {
-        return parseInt(this.y / oneBlockSize);
-    };
-
-    getMapXRightSide() {
-        return parseInt((this.x + 0.9999 * oneBlockSize) / oneBlockSize);
-    };
-    
-    getMapYRightSide() {
-        return parseInt((this.y + 0.9999 * oneBlockSize) / oneBlockSize);
     };

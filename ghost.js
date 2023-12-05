@@ -70,7 +70,7 @@ class Ghost {
 
     moveForwards() {
         switch(this.direction) {
-            case DIRECTION_RIGHT:
+            case 4: // going right
                 this.x += this.speed;
                 break;
             case DIRECTION_UP:

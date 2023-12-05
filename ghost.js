@@ -89,7 +89,7 @@ class Ghost {
         let isCollided = false;
         if(
             map[parseInt(this.y / oneBlockSize)][this.x / oneBlockSize] == 1 || 
-            map[this.getMapYRightSide()][this.getMapX()] == 1 || 
+            map[parseInt(this.y / oneBlockSize + 0.9999)][this.x / oneBlockSize] == 1 || 
             map[this.getMapY()][this.getMapXRightSide()] == 1 || 
             map[this.getMapYRightSide()][this.getMapXRightSide()] == 1
         ) {

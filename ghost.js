@@ -15,7 +15,7 @@ class Ghost {
         this.target = randomTargetsForGhosts[this.randomTargetIndex];
         setInterval(() => {
             this.changeRandomDirection()
-        }, 1000);
+        }, 10000);
     }
 
     isInRange() {

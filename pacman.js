@@ -7,7 +7,7 @@ class Pacman {
         this.speed = speed;
         this.direction = 4;
         this.nextDirection = 4;
-        this.frameCount = 7;
+        this.frameCount = 5;
         this.currentFrame = 1;
         setInterval(() => {
             this.changeAnimation();

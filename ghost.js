@@ -11,7 +11,7 @@ class Ghost {
         this.imageHeight = imageHeight;
         this.imageWidth = imageWidth;
         this.range = range;
-        this.randomTargetIndex = parseInt(Math.random() * 8);
+        this.randomTargetIndex = parseInt(Math.random() * 4);
         this.target = randomTargetsForGhosts[this.randomTargetIndex];
         setInterval(() => {
             this.changeRandomDirection()

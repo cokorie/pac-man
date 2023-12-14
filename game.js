@@ -13,7 +13,7 @@ const DIRECTION_UP = 3;
 const DIRECTION_LEFT = 2;
 const DIRECTION_BOTTOM = 1;
 let lives = 3;
-let ghostCount = 8;
+let ghostCount = 4;
 let ghostLocations = [
     {x: 0, y: 0},
     {x: 176, y: 0},

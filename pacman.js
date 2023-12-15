@@ -5,7 +5,7 @@ class Pacman {
         this.width = width;
         this.height = height;
         this.speed = speed;
-        this.direction = 2;
+        this.direction = 4;
         this.nextDirection = 4;
         this.frameCount = 7;
         this.currentFrame = 1;

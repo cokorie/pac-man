@@ -39,4 +39,5 @@ function loadImage() {
 
     pacmanUpImage = new Image();
     pacmanUpImage.src = "./assets/pacmanUp.png";
+    pacmanDownImage = new Image();
 }

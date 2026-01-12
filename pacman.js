@@ -38,4 +38,5 @@ function loadImage() {
     redGhostImage.src = "./assets/redGhost.png";
 
     pacmanUpImage = new Image();
+    pacmanUpImage.src = "./assets/pacmanUp.png";
 }

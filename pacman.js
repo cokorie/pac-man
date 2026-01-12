@@ -29,4 +29,5 @@ function loadImage() {
     wallImage.src = "./assets/wall.png";
 
     blueGhostImage = new Image();
+    blueGhostImage.src = "./assets/blueGhost.png";
 }

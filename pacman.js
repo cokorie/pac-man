@@ -25,5 +25,5 @@ window.onload = function() {
 }
 
 function loadImage() {
-    
+    wallImage = new Image();
 }

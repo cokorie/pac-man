@@ -15,6 +15,7 @@ let pacmanUpImage;
 let pacmanDownImage;
 let pacmanLeftImage;
 let pacmanRightImage;
+let wallImage;
 
 window.onload = function () {
     board = document.getElementById("board");

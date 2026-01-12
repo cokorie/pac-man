@@ -7,6 +7,8 @@ const boardWidth = columnCount * tileSize;
 const boardHeight = rowCount * tileSize;
 let context;
 
+
+
 window.onload = function () {
     board = document.getElementById("board");
     board.height = boardHeight;

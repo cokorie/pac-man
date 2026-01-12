@@ -1,3 +1,3 @@
 // board variables
 let board;
-const rowCount;
+const rowCount = 21;

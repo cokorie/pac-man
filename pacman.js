@@ -4,4 +4,4 @@ let columnCount = 19;
 const rowCount = 21;
 const tileSize = 32;
 const boardWidth = columnCount * tileSize;
-const boardHeight;
+const boardHeight = rowCount * tileSize;

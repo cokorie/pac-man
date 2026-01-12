@@ -1,0 +1,2 @@
+// board variables
+let board;

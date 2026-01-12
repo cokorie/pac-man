@@ -9,6 +9,7 @@ let context;
 
 let blueGhostImage;
 let orangeGhostImage;
+let pinkGhostImage;
 
 window.onload = function () {
     board = document.getElementById("board");

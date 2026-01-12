@@ -8,5 +8,5 @@ const boardHeight = rowCount * tileSize;
 let context;
 
 window.onload = function () {
-    
+    board = document.getElementById("board");
 }

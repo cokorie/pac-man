@@ -1,4 +1,4 @@
 // board variables
 let board;
 const rowCount = 21;
-const tileSize;
+const tileSize = 32;

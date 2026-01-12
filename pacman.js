@@ -14,6 +14,7 @@ let redGhostImage;
 let pacmanUpImage;
 let pacmanDownImage;
 let pacmanLeftImage;
+let pacmanRightImage;
 
 window.onload = function () {
     board = document.getElementById("board");

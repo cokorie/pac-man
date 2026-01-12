@@ -7,7 +7,7 @@ const boardWidth = columnCount * tileSize;
 const boardHeight = rowCount * tileSize;
 let context;
 
-
+let blueGhostImage;
 
 window.onload = function () {
     board = document.getElementById("board");

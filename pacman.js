@@ -80,5 +80,6 @@ class Block {
         this.image = image;
         this.x = x;
         this.y = y;
+        this.width = width;
     }
 }

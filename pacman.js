@@ -8,6 +8,7 @@ const boardHeight = rowCount * tileSize;
 let context;
 
 let blueGhostImage;
+let orangeGhostImage;
 
 window.onload = function () {
     board = document.getElementById("board");

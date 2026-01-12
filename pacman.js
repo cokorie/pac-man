@@ -6,3 +6,7 @@ const tileSize = 32;
 const boardWidth = columnCount * tileSize;
 const boardHeight = rowCount * tileSize;
 let context;
+
+window.onload = function () {
+    
+}

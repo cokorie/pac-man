@@ -34,4 +34,5 @@ function loadImage() {
     orangeGhostImage.src = "./assets/orangeGhost.png";
     pinkGhostImage = new Image();
     pinkGhostImage.src = "./assets/pinkGhost.png";
+    redGhostImage = new Image();
 }

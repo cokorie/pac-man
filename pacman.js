@@ -9,4 +9,5 @@ let context;
 
 window.onload = function () {
     board = document.getElementById("board");
+    board.height = boardHeight;
 }

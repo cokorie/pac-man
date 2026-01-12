@@ -79,5 +79,6 @@ class Block {
     constructor(image, x, y, width, height) {
         this.image = image;
         this.x = x;
+        this.y = y;
     }
 }

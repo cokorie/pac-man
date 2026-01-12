@@ -45,6 +45,7 @@ const tileMap = [
 
 const walls = new Set();
 const foods = new Set();
+const ghosts = new Set();
 
 window.onload = function() {
     board = document.getElementById("board");

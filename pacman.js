@@ -27,4 +27,6 @@ window.onload = function() {
 function loadImage() {
     wallImage = new Image();
     wallImage.src = "./assets/wall.png";
+
+    blueGhostImage = new Image();
 }

@@ -22,9 +22,11 @@ window.onload = function() {
     board.height = boardHeight;
     board.width = boardWidth;
     context = board.getContext("2d");
+
+    loadImages();
 }
 
-function loadImage() {
+function loadImages() {
     wallImage = new Image();
     wallImage.src = "./assets/wall.png";
 

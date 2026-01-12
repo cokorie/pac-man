@@ -46,6 +46,7 @@ const tileMap = [
 const walls = new Set();
 const foods = new Set();
 const ghosts = new Set();
+let pacman;
 
 window.onload = function() {
     board = document.getElementById("board");

@@ -36,4 +36,6 @@ function loadImage() {
     pinkGhostImage.src = "./assets/pinkGhost.png";
     redGhostImage = new Image();
     redGhostImage.src = "./assets/redGhost.png";
+
+    pacmanUpImage = new Image();
 }

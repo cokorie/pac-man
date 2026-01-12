@@ -74,3 +74,7 @@ function loadImages() {
     pacmanRightImage = new Image();
     pacmanRightImage.src = "./assets/pacmanRight.png";
 }
+
+class Block {
+    
+}

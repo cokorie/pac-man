@@ -11,6 +11,7 @@ let blueGhostImage;
 let orangeGhostImage;
 let pinkGhostImage;
 let redGhostImage;
+let pacmanUpImage;
 
 window.onload = function () {
     board = document.getElementById("board");

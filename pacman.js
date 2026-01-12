@@ -1,6 +1,6 @@
 // board variables
 let board;
-let columnCount;
+let columnCount = 19;
 const rowCount = 21;
 const tileSize = 32;
 const boardWidth;

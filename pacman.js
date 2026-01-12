@@ -41,4 +41,5 @@ function loadImage() {
     pacmanUpImage.src = "./assets/pacmanUp.png";
     pacmanDownImage = new Image();
     pacmanDownImage.src = "./assets/pacmanDown.png";
+    pacmanLeftImage = new Image();
 }

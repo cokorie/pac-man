@@ -84,5 +84,6 @@ class Block {
         this.height = height;
 
         this.startX = x;
+        this.startY = y;
     }
 }

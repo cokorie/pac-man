@@ -76,7 +76,7 @@ function loadImages() {
 }
 
 class Block {
-    constructor(image, x, y, width) {
+    constructor(image, x, y, width, height) {
 
     }
 }

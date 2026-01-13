@@ -99,6 +99,7 @@ function loadMap() {
             }
             else if (tileMapChar == 'b') {
                 const ghost = new Block(blueGhostImage, x, y, tileSize, tileSize);
+                ghosts.add(ghost);
             }
         }
     }

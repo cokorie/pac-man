@@ -56,6 +56,8 @@ window.onload = function() {
 
     loadImages();
     loadMap();
+
+    update();
 }
 
 function loadImages() {
@@ -130,7 +132,7 @@ function update() {
 }
 
 function draw() {
-    
+
 }
 
 class Block {

@@ -133,7 +133,7 @@ function update() {
 }
 
 function draw() {
-
+    context.drawImage();
 }
 
 class Block {

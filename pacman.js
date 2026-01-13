@@ -118,6 +118,7 @@ function loadMap() {
             }
             else if (tileMapChar == ' ') { // for future food in game
                 const food = new Block(null, x + 14, y + 14, 4, 4);
+                foods.add(food);
             }
         }
     }

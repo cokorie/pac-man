@@ -93,8 +93,9 @@ function loadMap() {
             const x = c * tileSize;
             const y = r * tileSize;
 
-            if () {
-                
+            if (tileMapChar == 'X') {
+                const wall = new Block(wallImage, x, y, tileSize, tileSize);
+                walls.add(wall);
             }
         }
     }

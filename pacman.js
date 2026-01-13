@@ -126,6 +126,10 @@ function loadMap() {
 }
 
 function update() {
+
+}
+
+function draw() {
     
 }
 

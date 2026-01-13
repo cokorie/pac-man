@@ -82,6 +82,7 @@ function loadImages() {
 
 function loadMap() {
     walls.clear();
+    foods.clear();
 }
 
 class Block {

@@ -117,7 +117,7 @@ function loadMap() {
                 const ghost = new Block(pacmanRightImage, x, y, tileSize, tileSize);
             }
             else if (tileMapChar == ' ') { // for future food in game
-                
+                const food = new Block(null, x + 14, y + 14, 4, 4);
             }
         }
     }

@@ -113,6 +113,9 @@ function loadMap() {
                 const ghost = new Block(redGhostImage, x, y, tileSize, tileSize);
                 ghosts.add(ghost);
             }
+            else if (tileMapChar == 'P') {
+                const ghost = new Block(pacmanRightImage, x, y, tileSize, tileSize);
+            }
         }
     }
 }

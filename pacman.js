@@ -86,7 +86,9 @@ function loadMap() {
     ghosts.clear();
 
     for (let r = 0; r < rowCount; r++) {
-        
+        for () {
+            
+        }
     }
 }
 

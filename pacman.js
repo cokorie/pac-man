@@ -92,6 +92,10 @@ function loadMap() {
 
             const x = c * tileSize;
             const y = r * tileSize;
+
+            if () {
+                
+            }
         }
     }
 }

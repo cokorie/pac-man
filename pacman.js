@@ -129,7 +129,7 @@ function loadMap() {
 
 function update() {
     draw();
-    setTimeout();
+    setTimeout(update, 50);
 }
 
 function draw() {

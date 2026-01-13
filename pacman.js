@@ -102,11 +102,15 @@ function loadMap() {
                 ghosts.add(ghost);
             }
             else if (tileMapChar == 'o') {
-                const ghost = new Block(orangeGhostImageGhostImage, x, y, tileSize, tileSize);
+                const ghost = new Block(orangeGhostImage, x, y, tileSize, tileSize);
                 ghosts.add(ghost);
             }
             else if (tileMapChar == 'p') {
-                const ghost = new Block(orangeGhostImageGhostImage, x, y, tileSize, tileSize);
+                const ghost = new Block(pinkGhostImage, x, y, tileSize, tileSize);
+                ghosts.add(ghost);
+            }
+            else if (tileMapChar == 'r') {
+                const ghost = new Block(redGhostImage, x, y, tileSize, tileSize);
                 ghosts.add(ghost);
             }
         }

@@ -83,6 +83,7 @@ function loadImages() {
 function loadMap() {
     walls.clear();
     foods.clear();
+    ghosts.clear();
 }
 
 class Block {

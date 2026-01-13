@@ -55,6 +55,7 @@ window.onload = function() {
     context = board.getContext("2d");
 
     loadImages();
+    loadMap();
 }
 
 function loadImages() {

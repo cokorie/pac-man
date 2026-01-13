@@ -91,6 +91,7 @@ function loadMap() {
             const tileMapChar = row[c];
 
             const x = c * tileSize;
+            const y = r * tileSize;
         }
     }
 }

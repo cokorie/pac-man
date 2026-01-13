@@ -134,6 +134,9 @@ function update() {
 
 function draw() {
     context.drawImage(pacman.image, pacman.x, pacman.y, pacman.width, pacman.height);
+    for () {
+        
+    }
 }
 
 class Block {

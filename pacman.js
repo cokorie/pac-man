@@ -80,6 +80,10 @@ function loadImages() {
     pacmanRightImage.src = "./assets/pacmanRight.png";
 }
 
+function loadMap() {
+    
+}
+
 class Block {
     constructor(image, x, y, width, height) {
         this.image = image;

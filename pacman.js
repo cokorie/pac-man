@@ -85,7 +85,7 @@ function loadMap() {
     foods.clear();
     ghosts.clear();
 
-    for () {
+    for (let r = 0; r < rowCount; r++) {
         
     }
 }

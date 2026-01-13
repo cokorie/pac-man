@@ -125,6 +125,10 @@ function loadMap() {
     }
 }
 
+function update() {
+    
+}
+
 class Block {
     constructor(image, x, y, width, height) {
         this.image = image;

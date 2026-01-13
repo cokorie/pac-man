@@ -137,6 +137,9 @@ function draw() {
     for (let ghost of ghost.values()) {
         context.drawImage(ghost.image, ghost.x, ghost.y, ghost.width, ghost.height);
     }
+    for (let wall of walls.values()) {
+        context.drawImage(wall.image, wall.x, wall.y, wall.width, wall.height);
+    }
 }
 
 class Block {

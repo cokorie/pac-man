@@ -142,7 +142,7 @@ function draw() {
     }
     context.fillStyle = "white";
     for (let food of foods.values()) {
-        context.fillRect();
+        context.fillRect(food.x, food.y, food.width, food.height);
     }
 }
 

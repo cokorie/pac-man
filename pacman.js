@@ -141,7 +141,7 @@ function draw() {
         context.drawImage(wall.image, wall.x, wall.y, wall.width, wall.height);
     }
     context.fillStyle = "white";
-    for () {
+    for (let food of foods.values()) {
         
     }
 }

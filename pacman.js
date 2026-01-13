@@ -84,6 +84,10 @@ function loadMap() {
     walls.clear();
     foods.clear();
     ghosts.clear();
+
+    for () {
+        
+    }
 }
 
 class Block {

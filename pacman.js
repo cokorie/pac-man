@@ -105,6 +105,10 @@ function loadMap() {
                 const ghost = new Block(orangeGhostImageGhostImage, x, y, tileSize, tileSize);
                 ghosts.add(ghost);
             }
+            else if (tileMapChar == 'p') {
+                const ghost = new Block(orangeGhostImageGhostImage, x, y, tileSize, tileSize);
+                ghosts.add(ghost);
+            }
         }
     }
 }

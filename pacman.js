@@ -81,7 +81,7 @@ function loadImages() {
 }
 
 function loadMap() {
-    
+    walls.clear();
 }
 
 class Block {

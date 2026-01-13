@@ -140,6 +140,7 @@ function draw() {
     for (let wall of walls.values()) {
         context.drawImage(wall.image, wall.x, wall.y, wall.width, wall.height);
     }
+    context.fillStyle = "white";
 }
 
 class Block {

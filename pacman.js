@@ -87,7 +87,7 @@ function loadMap() {
 
     for (let r = 0; r < rowCount; r++) {
         for (let c = 0; c < columnCount; c++) {
-            
+            const row = tileMap[r];
         }
     }
 }

@@ -133,7 +133,7 @@ function update() {
 }
 
 function draw() {
-    context.drawImage();
+    context.drawImage(pacman.image, pacman.x, pacman.y, pacman.width, pacman.height);
 }
 
 class Block {

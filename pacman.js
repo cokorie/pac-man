@@ -222,7 +222,7 @@ function move() {
 
     // for next level
     if (foods.size == 0) {
-
+        loadMap();
     }
 }
 

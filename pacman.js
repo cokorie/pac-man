@@ -160,6 +160,7 @@ function draw() {
 
     // score display
     context.fillStyle = "white";
+    context.font = "14px sans-serif";
 }
 
 function move() {

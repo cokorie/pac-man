@@ -300,5 +300,6 @@ class Block {
 
     reset() {
         this.x = this.startX;
+        this.y = this.startY;
     }
 }

@@ -176,7 +176,7 @@ function movePacman(e) {
         pacman.updateDirection('R');
     }
 
-    if () {
+    if (pacman.direction == 'U') {
         
     }
 }

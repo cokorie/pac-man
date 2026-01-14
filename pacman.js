@@ -158,7 +158,7 @@ function movePacman(e) {
         pacman.updateDirection('L');
     }
     else if (e.code == "ArrowRight" || e.code == "KeyD") {
-        
+        pacman.updateDirection('R');
     }
 }
 

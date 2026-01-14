@@ -175,6 +175,10 @@ function movePacman(e) {
     else if (e.code == "ArrowRight" || e.code == "KeyD") {
         pacman.updateDirection('R');
     }
+
+    if () {
+        
+    }
 }
 
 function collision(a, b) {

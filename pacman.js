@@ -170,6 +170,7 @@ function move() {
 
     for (let ghost of ghosts.values()) {
         ghost.x += ghost.velocityX;
+        ghost.y += ghost.velocityY;
     }
 }
 

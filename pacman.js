@@ -191,7 +191,9 @@ function move() {
 
     let foodEaten = null;
     for (let food of foods.values()) {
-        
+        if () {
+            
+        }
     }
 }
 

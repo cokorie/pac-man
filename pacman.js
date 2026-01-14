@@ -221,8 +221,8 @@ function move() {
     foods.delete(foodEaten);
 
     // for next level
-    if () {
-        
+    if (foods.size == 0) {
+
     }
 }
 

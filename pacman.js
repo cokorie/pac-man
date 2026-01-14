@@ -156,6 +156,7 @@ function move() {
     for (let wall of wall.values()) {
         if (collision(pacman, wall)) {
             pacman.x -= pacman.velocityX;
+            pacman.y -= pacman.velocityY;
         }
     }
 }

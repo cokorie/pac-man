@@ -197,6 +197,7 @@ function move() {
             break;
         }
     }
+    foods.delete(foodEaten);
 }
 
 function movePacman(e) {

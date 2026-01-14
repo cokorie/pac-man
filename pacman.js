@@ -58,6 +58,7 @@ window.onload = function() {
     loadMap();
 
     update();
+    document.addEventListener();
 }
 
 function loadImages() {
@@ -147,7 +148,7 @@ function draw() {
 }
 
 function movePacman() {
-    
+
 }
 
 class Block {

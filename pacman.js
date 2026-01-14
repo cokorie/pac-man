@@ -139,6 +139,9 @@ function loadMap() {
 }
 
 function update() {
+    if () {
+        
+    }
     move();
     draw();
     setTimeout(update, 50);

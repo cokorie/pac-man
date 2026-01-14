@@ -222,6 +222,10 @@ function move() {
 }
 
 function movePacman(e) {
+    if () {
+        
+    }
+
     if (e.code == "ArrowUp" || e.code == "KeyW") {
         pacman.updateDirection('U');
     }

@@ -178,6 +178,7 @@ class Block {
         }
         else if (this.direction == 'L') {
             this.velocityX = -tileSize / 4;
+            this.velocityY = 0;
         }
     }
 }

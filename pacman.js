@@ -165,7 +165,7 @@ function draw() {
         context.fillText("Game Over: " + String(score), tileSize / 2, tileSize / 2);
     }
     else {
-        
+        context.fillText("x" + String(lives) + " " + String(score), tileSize / 2, tileSize / 2);
     }
 }
 

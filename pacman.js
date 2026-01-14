@@ -157,6 +157,7 @@ function move() {
         if (collision(pacman, wall)) {
             pacman.x -= pacman.velocityX;
             pacman.y -= pacman.velocityY;
+            break;
         }
     }
 }

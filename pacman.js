@@ -168,7 +168,7 @@ class Block {
     }
 
     updateVelocity() {
-        if () {
+        if (this.direction == 'U') {
             
         }
     }

@@ -176,5 +176,8 @@ class Block {
             this.velocityX = 0;
             this.velocityY = tileSize / 4;
         }
+        else if () {
+            
+        }
     }
 }

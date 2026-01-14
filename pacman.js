@@ -169,6 +169,10 @@ function movePacman(e) {
     }
 }
 
+function collision() {
+    
+}
+
 class Block {
     constructor(image, x, y, width, height) {
         this.image = image;

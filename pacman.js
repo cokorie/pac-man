@@ -164,9 +164,10 @@ class Block {
 
     updateDirection(direction) {
         this.direction = direction;
+        this.updateVelocity();
     }
 
     updateVelocity() {
-        
+
     }
 }

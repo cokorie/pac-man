@@ -249,6 +249,9 @@ function resetPosition() {
     pacman.reset();
     pacman.velocityX = 0;
     pacman.velocityY = 0;
+    for () {
+        
+    }
 }
 
 class Block {

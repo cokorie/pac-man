@@ -119,7 +119,7 @@ function loadMap() {
             else if (tileMapChar == 'P') {
                 const ghost = new Block(pacmanRightImage, x, y, tileSize, tileSize);
             }
-            else if (tileMapChar == ' ') { // for future food in game
+            else if (tileMapChar == ' ') { // for white pellets in game
                 const food = new Block(null, x + 14, y + 14, 4, 4);
                 foods.add(food);
             }

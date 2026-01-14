@@ -7,16 +7,6 @@ const boardWidth = columnCount * tileSize;
 const boardHeight = rowCount * tileSize;
 let context;
 
-let blueGhostImage;
-let orangeGhostImage;
-let pinkGhostImage;
-let redGhostImage;
-let pacmanUpImage;
-let pacmanDownImage;
-let pacmanLeftImage;
-let pacmanRightImage;
-let wallImage;
-
 //X = Wall, O = Skip Path, p = Pac-Man, ' ' = food pellets
 //b = Blue Ghost, o = Orange Ghost, P = Pink Ghost, r = Red Ghost
 const tileMap = [
@@ -47,6 +37,18 @@ const walls = new Set();
 const foods = new Set();
 const ghosts = new Set();
 let pacman;
+
+const direction = [];
+
+let blueGhostImage;
+let orangeGhostImage;
+let pinkGhostImage;
+let redGhostImage;
+let pacmanUpImage;
+let pacmanDownImage;
+let pacmanLeftImage;
+let pacmanRightImage;
+let wallImage;
 
 window.onload = function() {
     board = document.getElementById("board");

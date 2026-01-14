@@ -167,6 +167,10 @@ function move() {
             break;
         }
     }
+
+    for (let ghost of ghosts.values()) {
+        
+    }
 }
 
 function movePacman(e) {

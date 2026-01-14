@@ -182,7 +182,7 @@ function move() {
     }
 
     for (let ghost of ghosts.values()) {
-        if () {
+        if (collision(ghost, pacman)) {
             
         }
 

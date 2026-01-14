@@ -153,7 +153,7 @@ function move() {
     pacman.x += pacman.velocityX;
     pacman.y += pacman.velocityY;
 
-    for () {
+    for (let wall of wall.values()) {
         
     }
 }

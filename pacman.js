@@ -210,6 +210,7 @@ class Block {
                 this.y -= this.velocityY;
                 this.direction = prevDirection;
                 this.updateVelocity();
+                return;
             }
         }
     }

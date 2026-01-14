@@ -40,7 +40,7 @@ let pacman;
 
 const directions = ['U', 'D', 'L', 'R'];
 let score = 0;
-let lives;
+let lives = 3;
 
 let blueGhostImage;
 let orangeGhostImage;

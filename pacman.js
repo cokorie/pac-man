@@ -184,6 +184,7 @@ function move() {
     for (let ghost of ghosts.values()) {
         if (collision(ghost, pacman)) {
             lives -= 1;
+            resetPositions();
         }
 
         if (ghost.y == tileSize * 9 && ghost.direction != 'U' && ghost.direction != 'D') {

@@ -148,7 +148,7 @@ function draw() {
 }
 
 function move() {
-    
+    pacman.x += pacman.velocityX;
 }
 
 function movePacman(e) {

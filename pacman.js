@@ -38,7 +38,7 @@ const foods = new Set();
 const ghosts = new Set();
 let pacman;
 
-const direction = ['U'];
+const direction = ['U', 'D'];
 
 let blueGhostImage;
 let orangeGhostImage;

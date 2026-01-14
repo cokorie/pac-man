@@ -185,7 +185,7 @@ function move() {
         if (collision(ghost, pacman)) {
             lives -= 1;
             if (lives == 0) {
-
+                gameOver = true;
             }
             resetPositions();
         }

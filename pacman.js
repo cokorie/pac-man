@@ -161,7 +161,7 @@ function draw() {
     // score display
     context.fillStyle = "white";
     context.font = "14px sans-serif";
-    if () {
+    if (gameOver) {
         
     }
 }

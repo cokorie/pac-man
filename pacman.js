@@ -247,6 +247,7 @@ function collision(a, b) {
 
 function resetPosition() {
     pacman.reset();
+    pacman.velocityX = 0;
 }
 
 class Block {

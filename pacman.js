@@ -169,6 +169,11 @@ function move() {
     }
 
     for (let ghost of ghosts.values()) {
+
+        if () {
+            
+        }
+
         ghost.x += ghost.velocityX;
         ghost.y += ghost.velocityY;
         for (let wall of walls.values()) {

@@ -172,7 +172,9 @@ function move() {
         ghost.x += ghost.velocityX;
         ghost.y += ghost.velocityY;
         for (let wall of walls.values()) {
-            
+            if (collision(ghost, wall) || ghost.x <= 0 || ghost.x + ghost.width >= boardWidth) {
+                
+            }
         }
     }
 }

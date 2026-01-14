@@ -169,8 +169,8 @@ function movePacman(e) {
     }
 }
 
-function collision() {
-    
+function collision(a, b) {
+
 }
 
 class Block {

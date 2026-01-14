@@ -182,6 +182,9 @@ function movePacman(e) {
     else if (pacman.direction == 'D') {
         pacman.image = pacmanDownImage;
     }
+    else if (pacman.direction == 'L') {
+        pacman.image = pacmanDownImage;
+    }
 }
 
 function collision(a, b) {

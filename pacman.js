@@ -252,6 +252,7 @@ function resetPosition() {
     for (let ghost of ghosts.values()) {
         ghost.reset();
         const newDirection = directions[Math.floor(Math.random() * 4)];
+        ghost.updateDirection(newDirection);
     }
 }
 

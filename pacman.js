@@ -188,6 +188,8 @@ function move() {
             }
         }
     }
+
+    let foodEaten;
 }
 
 function movePacman(e) {

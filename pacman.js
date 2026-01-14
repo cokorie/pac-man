@@ -184,6 +184,9 @@ function move() {
     for (let ghost of ghosts.values()) {
         if (collision(ghost, pacman)) {
             lives -= 1;
+            if () {
+                
+            }
             resetPositions();
         }
 

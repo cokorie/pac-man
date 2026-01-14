@@ -156,5 +156,7 @@ class Block {
 
         this.startX = x;
         this.startY = y;
+
+        this.direction = 'R';
     }
 }

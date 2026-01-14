@@ -205,7 +205,9 @@ class Block {
         this.y += this.velocityY;
 
         for (let wall of walls.values()) {
-            
+            if (collision(this, wall)) {
+                
+            }
         }
     }
 

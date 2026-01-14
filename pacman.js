@@ -177,7 +177,7 @@ function movePacman(e) {
     }
 
     if (pacman.direction == 'U') {
-        
+        pacman.image = pacmanUpImage;
     }
 }
 

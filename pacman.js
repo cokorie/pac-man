@@ -158,5 +158,6 @@ class Block {
         this.startY = y;
 
         this.direction = 'R';
+        this.velocityX = 0;
     }
 }

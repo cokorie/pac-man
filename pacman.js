@@ -225,6 +225,7 @@ function movePacman(e) {
     if (gameOver) {
         loadMap();
         resetPositions();
+        lives = 3;
     }
 
     if (e.code == "ArrowUp" || e.code == "KeyW") {

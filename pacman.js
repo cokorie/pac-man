@@ -179,6 +179,9 @@ function movePacman(e) {
     if (pacman.direction == 'U') {
         pacman.image = pacmanUpImage;
     }
+    else if (pacman.direction == 'D') {
+        
+    }
 }
 
 function collision(a, b) {

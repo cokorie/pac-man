@@ -190,6 +190,9 @@ function move() {
     }
 
     let foodEaten = null;
+    for () {
+
+    }
 }
 
 function movePacman(e) {

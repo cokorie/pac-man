@@ -175,6 +175,7 @@ function move() {
             if (collision(ghost, wall) || ghost.x <= 0 || ghost.x + ghost.width >= boardWidth) {
                 ghost.x -= ghost.velocityX;
                 ghost.y -= ghost.velocityY;
+                const newDirection = directions[Math.floor(Math.random() * 4)];
             }
         }
     }

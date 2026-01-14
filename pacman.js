@@ -147,6 +147,10 @@ function draw() {
     }
 }
 
+function move() {
+    
+}
+
 function movePacman(e) {
     if (e.code == "ArrowUp" || e.code == "KeyW") {
         pacman.updateDirection('U');

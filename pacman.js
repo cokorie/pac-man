@@ -139,7 +139,7 @@ function loadMap() {
 }
 
 function update() {
-    if () {
+    if (gameOver) {
         
     }
     move();

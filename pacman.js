@@ -201,6 +201,7 @@ class Block {
         const prevDirection = this.direction;
         this.direction = direction;
         this.updateVelocity();
+        this.x += this.velocityX;
     }
 
     updateVelocity() {

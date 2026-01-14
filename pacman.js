@@ -148,7 +148,7 @@ function draw() {
 }
 
 function movePacman(e) {
-    if () {
+    if (e.code == "ArrowUp" || e.code == "KeyW") {
         
     }
 }

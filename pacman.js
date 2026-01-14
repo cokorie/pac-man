@@ -173,7 +173,7 @@ class Block {
             this.velocityY = -tileSize / 4;
         }
         else if (this.direction == 'D') {
-
+            this.velocityX = 0;
         }
     }
 }

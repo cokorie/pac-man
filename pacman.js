@@ -39,7 +39,7 @@ const ghosts = new Set();
 let pacman;
 
 const directions = ['U', 'D', 'L', 'R'];
-let score
+let score = 0;
 
 let blueGhostImage;
 let orangeGhostImage;

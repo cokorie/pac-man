@@ -202,6 +202,7 @@ class Block {
         this.direction = direction;
         this.updateVelocity();
         this.x += this.velocityX;
+        this.y += this.velocityY;
     }
 
     updateVelocity() {

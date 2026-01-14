@@ -194,6 +194,7 @@ function move() {
         if (collision(pacman, food)) {
             foodEaten = food;
             score += 10;
+            break;
         }
     }
 }

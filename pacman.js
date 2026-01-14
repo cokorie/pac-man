@@ -59,7 +59,7 @@ window.onload = function() {
     loadImages();
     loadMap();
 
-    for () {
+    for (let ghost of ghests.values()) {
         
     }
 

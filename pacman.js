@@ -193,6 +193,7 @@ function move() {
     for (let food of foods.values()) {
         if (collision(pacman, food)) {
             foodEaten = food;
+            score += 10;
         }
     }
 }

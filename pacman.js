@@ -60,7 +60,7 @@ window.onload = function() {
     loadMap();
 
     for (let ghost of ghests.values()) {
-        
+        const newDirection = directions[Math.floor(Math.random() * 4)];
     }
 
     update();

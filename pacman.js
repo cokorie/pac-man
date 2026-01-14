@@ -170,6 +170,7 @@ class Block {
     updateVelocity() {
         if (this.direction == 'U') {
             this.velocityX = 0;
+            this.velocityY = -tileSize / 4;
         }
     }
 }

@@ -140,7 +140,7 @@ function loadMap() {
 
 function update() {
     if (gameOver) {
-        
+        return;
     }
     move();
     draw();

@@ -38,7 +38,7 @@ const foods = new Set();
 const ghosts = new Set();
 let pacman;
 
-const direction = ['U', 'D', 'L', 'R'];
+const directions = ['U', 'D', 'L', 'R'];
 
 let blueGhostImage;
 let orangeGhostImage;
@@ -58,6 +58,8 @@ window.onload = function() {
 
     loadImages();
     loadMap();
+
+
 
     update();
     document.addEventListener("keyup", movePacman);

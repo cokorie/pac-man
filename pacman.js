@@ -152,7 +152,7 @@ function movePacman(e) {
         pacman.updateDirection('U');
     }
     else if (e.code == "ArrowDown" || e.code == "KeyS") {
-        
+        pacman.updateDirection('D');
     }
 }
 

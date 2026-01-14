@@ -203,6 +203,10 @@ class Block {
         this.updateVelocity();
         this.x += this.velocityX;
         this.y += this.velocityY;
+
+        for (let wall of walls.values()) {
+            
+        }
     }
 
     updateVelocity() {

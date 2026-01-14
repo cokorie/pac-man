@@ -164,6 +164,9 @@ function draw() {
     if (gameOver) {
         context.fillText("Game Over: " + String(score), tileSize / 2, tileSize / 2);
     }
+    else {
+        
+    }
 }
 
 function move() {

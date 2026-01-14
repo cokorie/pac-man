@@ -251,7 +251,7 @@ function resetPosition() {
     pacman.velocityY = 0;
     for (let ghost of ghosts.values()) {
         ghost.reset();
-        
+        const newDirection = directions[Math.floor(Math.random() * 4)];
     }
 }
 

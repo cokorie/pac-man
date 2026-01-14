@@ -222,8 +222,8 @@ function move() {
 }
 
 function movePacman(e) {
-    if () {
-        
+    if (gameOver) {
+
     }
 
     if (e.code == "ArrowUp" || e.code == "KeyW") {

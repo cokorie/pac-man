@@ -186,6 +186,7 @@ function move() {
             lives -= 1;
             if (lives == 0) {
                 gameOver = true;
+                return;
             }
             resetPositions();
         }

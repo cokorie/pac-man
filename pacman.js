@@ -174,6 +174,7 @@ class Block {
         }
         else if (this.direction == 'D') {
             this.velocityX = 0;
+            this.velocityY = tileSize / 4;
         }
     }
 }

@@ -223,7 +223,7 @@ function move() {
 
 function movePacman(e) {
     if (gameOver) {
-
+        loadMap();
     }
 
     if (e.code == "ArrowUp" || e.code == "KeyW") {

@@ -147,7 +147,7 @@ function draw() {
     }
 }
 
-function movePacman() {
+function movePacman(e) {
 
 }
 

@@ -168,6 +168,8 @@ class Block {
     }
 
     updateVelocity() {
-
+        if () {
+            
+        }
     }
 }

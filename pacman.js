@@ -171,7 +171,7 @@ function move() {
     for (let ghost of ghosts.values()) {
 
         if (ghost.y == tileSize * 9 && ghost.direction != 'U' && ghost.direction != 'D') {
-            
+            ghost.updateDirection('U');
         }
 
         ghost.x += ghost.velocityX;

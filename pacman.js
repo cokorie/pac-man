@@ -297,4 +297,8 @@ class Block {
             this.velocityY = 0;
         }
     }
+
+    reset() {
+        
+    }
 }

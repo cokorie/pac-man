@@ -250,6 +250,7 @@ function resetPosition() {
     pacman.velocityX = 0;
     pacman.velocityY = 0;
     for (let ghost of ghosts.values()) {
+        ghost.reset();
         
     }
 }

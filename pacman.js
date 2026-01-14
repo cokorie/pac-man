@@ -180,6 +180,8 @@ class Block {
             this.velocityX = -tileSize / 4;
             this.velocityY = 0;
         }
-        else if (this.direction == 'R')
+        else if (this.direction == 'R') {
+            this.velocityX = tileSize / 4;
+        }
     }
 }

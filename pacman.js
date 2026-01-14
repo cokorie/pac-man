@@ -208,6 +208,7 @@ class Block {
             if (collision(this, wall)) {
                 this.x -= this.velocityX;
                 this.y -= this.velocityY;
+                this.direction = prevDirection;
             }
         }
     }

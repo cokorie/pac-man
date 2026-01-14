@@ -180,7 +180,7 @@ function movePacman(e) {
         pacman.image = pacmanUpImage;
     }
     else if (pacman.direction == 'D') {
-        
+        pacman.image = pacmanDownImage;
     }
 }
 

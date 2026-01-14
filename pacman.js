@@ -157,6 +157,9 @@ function draw() {
     for (let food of foods.values()) {
         context.fillRect(food.x, food.y, food.width, food.height);
     }
+
+    // score display
+    context.fillStyle = "white";
 }
 
 function move() {

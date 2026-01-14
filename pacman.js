@@ -148,7 +148,9 @@ function draw() {
 }
 
 function movePacman(e) {
-
+    if () {
+        
+    }
 }
 
 class Block {

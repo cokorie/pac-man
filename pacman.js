@@ -299,6 +299,6 @@ class Block {
     }
 
     reset() {
-        
+        this.x = this.startX;
     }
 }

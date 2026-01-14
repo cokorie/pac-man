@@ -59,7 +59,9 @@ window.onload = function() {
     loadImages();
     loadMap();
 
-
+    for () {
+        
+    }
 
     update();
     document.addEventListener("keyup", movePacman);

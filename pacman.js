@@ -176,6 +176,7 @@ function move() {
                 ghost.x -= ghost.velocityX;
                 ghost.y -= ghost.velocityY;
                 const newDirection = directions[Math.floor(Math.random() * 4)];
+                ghost.updateDirection(newDirection);
             }
         }
     }

@@ -219,6 +219,11 @@ function move() {
         }
     }
     foods.delete(foodEaten);
+
+    // for next level
+    if () {
+        
+    }
 }
 
 function movePacman(e) {

@@ -162,7 +162,7 @@ function draw() {
     context.fillStyle = "white";
     context.font = "14px sans-serif";
     if (gameOver) {
-        
+        context.fillText("Game Over: " + String(score), tileSize / 2, tileSize / 2);
     }
 }
 

@@ -162,7 +162,7 @@ class Block {
         this.velocityY = 0;
     }
 
-    updateDirection() {
-        
+    updateDirection(direction) {
+
     }
 }

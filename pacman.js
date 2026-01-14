@@ -146,6 +146,10 @@ function draw() {
     }
 }
 
+function movePacman() {
+    
+}
+
 class Block {
     constructor(image, x, y, width, height) {
         this.image = image;

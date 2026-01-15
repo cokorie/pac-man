@@ -1,11 +1,21 @@
 // board variables
 let board;
-let columnCount = 19;
 const rowCount = 21;
+const columnCount = 19;
 const tileSize = 32;
 const boardWidth = columnCount * tileSize;
 const boardHeight = rowCount * tileSize;
 let context;
+
+let blueGhostImage;
+let orangeGhostImage;
+let pinkGhostImage;
+let redGhostImage;
+let pacmanUpImage;
+let pacmanDownImage;
+let pacmanLeftImage;
+let pacmanRightImage;
+let wallImage;
 
 //X = Wall, O = Skip Path, p = Pac-Man, ' ' = food pellets
 //b = Blue Ghost, o = Orange Ghost, P = Pink Ghost, r = Red Ghost
@@ -43,16 +53,6 @@ let score = 0;
 let lives = 3;
 let gameOver = false;
 
-let blueGhostImage;
-let orangeGhostImage;
-let pinkGhostImage;
-let redGhostImage;
-let pacmanUpImage;
-let pacmanDownImage;
-let pacmanLeftImage;
-let pacmanRightImage;
-let wallImage;
-
 window.onload = function() {
     board = document.getElementById("board");
     board.height = boardHeight;
@@ -62,7 +62,7 @@ window.onload = function() {
     loadImages();
     loadMap();
 
-    for (let ghost of ghests.values()) {
+    for (let ghost of ghosts.values()) {
         const newDirection = directions[Math.floor(Math.random() * 4)];
         ghost.updateDirection(newDirection);
     }
@@ -128,7 +128,7 @@ function loadMap() {
                 ghosts.add(ghost);
             }
             else if (tileMapChar == 'P') {
-                const ghost = new Block(pacmanRightImage, x, y, tileSize, tileSize);
+                pacman = new Block(pacmanRightImage, x, y, tileSize, tileSize);
             }
             else if (tileMapChar == ' ') { // for white pellets in game
                 const food = new Block(null, x + 14, y + 14, 4, 4);
@@ -176,7 +176,7 @@ function move() {
     pacman.x += pacman.velocityX;
     pacman.y += pacman.velocityY;
 
-    for (let wall of wall.values()) {
+    for (let wall of walls.values()) {
         if (collision(pacman, wall)) {
             pacman.x -= pacman.velocityX;
             pacman.y -= pacman.velocityY;
@@ -194,14 +194,22 @@ function move() {
             resetPositions();
         }
 
-        if (ghost.y == tileSize * 9 && ghost.direction != 'U' && ghost.direction != 'D') {
+        if (
+            ghost.y == tileSize * 9 && 
+            ghost.direction != 'U' && 
+            ghost.direction != 'D'
+        ) {
             ghost.updateDirection('U');
         }
 
         ghost.x += ghost.velocityX;
         ghost.y += ghost.velocityY;
         for (let wall of walls.values()) {
-            if (collision(ghost, wall) || ghost.x <= 0 || ghost.x + ghost.width >= boardWidth) {
+            if (
+                collision(ghost, wall) || 
+                ghost.x <= 0 || 
+                ghost.x + ghost.width >= boardWidth
+            ) {
                 ghost.x -= ghost.velocityX;
                 ghost.y -= ghost.velocityY;
                 const newDirection = directions[Math.floor(Math.random() * 4)];
@@ -265,7 +273,10 @@ function movePacman(e) {
 }
 
 function collision(a, b) {
-    return a.x < b.x + b.width && a.x + a.width > b.x && a.y < b.y + b.height && a.y + a.height > b.y;
+    return a.x < b.x + b.width && 
+            a.x + a.width > b.x && 
+            a.y < b.y + b.height && 
+            a.y + a.height > b.y;
 }
 
 function resetPositions() {
@@ -336,4 +347,4 @@ class Block {
         this.x = this.startX;
         this.y = this.startY;
     }
-}
+};

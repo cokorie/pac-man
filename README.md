@@ -29,8 +29,12 @@ Can you eat every pellet, and attain the highest score possible? Go ahead and tr
   * Player and enemy collisions, for restarting positions
   * Game resetting after lives are finished
 
+### __Getting Started__
+Click the below hyperlink to play Pac-Man: 
+* [Pac-Man](https://cokorie.github.io/pac-man/)
+
 ##### Gameplay Image
-![Pac-Man](/assets/pacman-start.png)
+![Pac-Man Game Start](/assets/pacman-start.png)
 
 ### __Further Enhancements (Icebox)__
   * Improve player movement

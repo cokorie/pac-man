@@ -30,7 +30,7 @@ Can you eat every pellet, and attain the highest score possible? Go ahead and tr
   * Game resetting after lives are finished
 
 ##### Gameplay Image
-![Pac-Man](/assets/pacman-game-start.png)
+![Pac-Man](/assets/pacman-start.png)
 
 ### __Further Enhancements (Icebox)__
   * Improve player movement

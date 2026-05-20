@@ -50,7 +50,7 @@ let pacman;
 
 const directions = ['U', 'D', 'L', 'R'];
 let score = 0;
-let lives = 5;
+let lives = 3;
 let gameOver = false;
 
 window.onload = function() {

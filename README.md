@@ -31,7 +31,7 @@ Can you eat every pellet, and attain the highest score possible? Go ahead and tr
 
 ### __Getting Started__
 Click the below hyperlink to play Pac-Man: 
-* [Pac-Man](https://cokorie.github.io/pac-man/)
+* [PAC-MAN](https://cokorie.github.io/pac-man/)
 
 ##### Gameplay Image
 ![Pac-Man Game Start](/assets/pacman-start.png)
